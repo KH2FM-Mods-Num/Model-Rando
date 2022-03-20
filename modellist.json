@@ -39,7 +39,18 @@
 			"P_EX100_AL_CARPET",
 			"P_EX100_TR_LIGHTCYCLE",
 			"PO06_PLAYER",
+			"PO07_PLAYER",
+			"PO08_PLAYER",
 			"AL14_PLAYER"
+		],
+		"Lion Sora": [
+			"P_LK100"
+		],
+		"Card Sora": [
+			"M_EX950_CARD"
+		],
+		"Dice Sora": [
+			"M_EX950_DICE"
 		],
 		"Donald": [
 			"P_EX020",
@@ -429,6 +440,10 @@
 		"Xemnas II": [
 			"B_EX170_LAST",
 			"B_EX170_LAST_LV99"
+		],
+		"Luxord's Cards": [
+			"B_EX210",
+			"B_EX210_EH"
 		],
 		"Roxas": [
 			"B_EX390"

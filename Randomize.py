@@ -1,21 +1,36 @@
 import sys
+import os
 import json
 import random
 
 #Functions to write stuff
 def writemodel(old,new):
-    #MDLX (Avoid conflict with Wisdom Form)
+    #MDLX (Avoid conflict with Wisdom & Limit Form)
     f.write('- name: obj/'+old+'.mdlx\n  method: binarc\n  source:\n')
-    if objtype != 'Enemy':
-        subfile = old[:4].lower()
-        if old == 'PO06_PLAYER' or old == 'AL14_PLAYER':
-            subfile = 'p_ex'
-        f.write('  - name: '+subfile+'\n    type: model\n    method: copy\n    source:\n'+
+    subfile = old[:4].lower()
+    if objtype == 'Enemy':
+        if os.path.isfile('obj/'+new+'.model'): #Changed Enemy Model
+            f.write('  - name: '+subfile+'\n    type: model\n    method: copy\n    source:\n'+
+                    '    - name: obj/'+new+'.model\n') #Model
+        f.write('  - name: tim_\n    type: modeltexture\n    method: copy\n    source:\n'+
+                '    - name: obj/'+new+'.tim\n')
+        if os.path.isfile('obj/'+new+'.a.fm'): #Special Sound Effects
+            f.write('- name: obj/'+old+'.a.fm\n  method: copy\n  source:\n'+
+                    '  - name: obj/'+new+'.a.fm\n')
+        return
+    if '_PLAYER' in old:
+        subfile = 'p_ex'
+    f.write('  - name: '+subfile+'\n    type: model\n    method: copy\n    source:\n'+
             '    - name: obj/'+new+'.model\n') #Model
     f.write('  - name: tim_\n    type: modeltexture\n    method: copy\n    source:\n'+
             '    - name: obj/'+new+'.tim\n') #Texture
+    
     #A.FM
     if objtype == 'Party':
+        if os.path.isfile('obj/'+new+'.a.fm'): #Special Sound Effects
+            f.write('- name: obj/'+old+'.a.fm\n  method: copy\n  source:\n'+
+                    '  - name: obj/'+new+'.a.fm\n')
+            return
         f.write('- name: obj/'+old+'.a.fm\n  method: binarc\n  source:\n')
         f.write('  - name: face\n    type: imgd\n    method: copy\n    source:\n'+
                 '    - name: obj/'+new+'.imd\n') #Portrait

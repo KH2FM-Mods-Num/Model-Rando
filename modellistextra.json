@@ -1,12 +1,24 @@
 {
 	"Party": {
 		"Sora": [],
+		"Lion Sora": [
+			"Shananas/P_LK100"
+		],
+		"Card Sora": [
+			"Shananas/M_EX950_CARD"
+		],
+		"Dice Sora": [
+			"Shananas/M_EX950_DICE"
+		],
 		"Donald": [],
 		"Goofy": [],
 		"Jack Skellington": []
 	},
 	"Weapon": {
-		"Keyblade": [],
+		"Keyblade": [
+			"All-in-One/Detection Saber",
+			"All-in-One/Frontier of Ultima"
+		],
 		"Staff": [],
 		"Shield": []
 	},
@@ -71,6 +83,7 @@
 		],
 		"Luxord": [
 			"MiXaV/B_EX150",
+			"Shananas/B_EX150",
 			"MiXaV/B_EX150_LV99"
 		],
 		"Saix": [
@@ -86,8 +99,12 @@
 			"MiXaV/B_EX170_LAST",
 			"MiXaV/B_EX170_LAST_LV99"
 		],
+		"Luxord's Cards": [
+			"Shananas/B_EX210"
+		],
 		"Roxas": [
-			"MiXaV/B_EX390"
+			"MiXaV/B_EX390",
+			"Others/Unhooded Roxas"
 		],
 		"Cerberus": [
 			"MiXaV/B_HE020"
@@ -393,6 +410,7 @@
 			"MiXaV/M_EX760",
 			"Original/M_EX760_RAW",
 			"MiXaV/M_EX760_RAW",
+			"Shananas/M_EX760_RAW",
 			"Original/M_EX760_NM",
 			"Original/M_EX760_NM_RAW",
 			"MiXaV/M_EX760_NM_RAW"
@@ -402,6 +420,7 @@
 			"MiXaV/M_EX770",
 			"Original/M_EX770_RAW",
 			"MiXaV/M_EX770_RAW",
+			"Shananas/M_EX770_RAW",
 			"Original/M_EX770_TR",
 			"MiXaV/M_EX770_TR",
 			"Original/M_EX770_TR_RAW",
@@ -462,6 +481,7 @@
 		],
 		"Dusk": [
 			"MiXaV/M_EX990",
+			"Shananas/M_EX990",
 			"MiXaV/M_EX990_RTN",
 			"MiXaV/M_EX990_RTN_FIXCOLOR"
 		],
