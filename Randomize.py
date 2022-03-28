@@ -59,8 +59,8 @@ f.write('assets:\n')
 for objtype in objs:
     obj = objs[objtype]
     for models in obj:
-        oldmodels = objs[objtype][models]
-        newmodels = oldmodels + objsextra[objtype][models]
+        oldmodels = objs[objtype][models] + objsextra['Domain'][objtype][models]
+        newmodels = objs[objtype][models] + objsextra['Codomain'][objtype][models]
         random.shuffle(newmodels)
         for i in range(len(oldmodels)):
             writemodel(oldmodels[i],newmodels[i])
