@@ -2,6 +2,7 @@ Domain:
   Party:
     Sora: []
     Lion Sora: []
+    Mermaid Sora: []
     Card Sora: []
     Dice Sora: []
     Donald:
@@ -135,9 +136,82 @@ Domain:
     Giant Sark: []
 Codomain:
   Party:
-    Sora: []
+    Sora:
+    - Roxas/Chain/P_EX100
+    - Roxas/Chain/P_EX100_BTLF
+    - Roxas/Chain/P_EX100_MAGF
+    - Roxas/Chain/P_EX100_KH1F
+    - Roxas/Chain/P_EX100_TRIF
+    - Roxas/Chain/P_EX100_ULTF
+    - Roxas/Chain/P_EX100_HTLF
+    - Roxas/Chain/P_EX100_NM
+    - Roxas/Chain/P_EX100_NM_BTLF
+    - Roxas/Chain/P_EX100_NM_MAGF
+    - Roxas/Chain/P_EX100_NM_KH1F
+    - Roxas/Chain/P_EX100_NM_TRIF
+    - Roxas/Chain/P_EX100_NM_ULTF
+    - Roxas/Chain/P_EX100_NM_HTLF
+    - Roxas/Chain/P_EX100_TR
+    - Roxas/Chain/P_EX100_TR_BTLF
+    - Roxas/Chain/P_EX100_TR_MAGF
+    - Roxas/Chain/P_EX100_TR_KH1F
+    - Roxas/Chain/P_EX100_TR_TRIF
+    - Roxas/Chain/P_EX100_TR_ULTF
+    - Roxas/Chain/P_EX100_TR_HTLF
+    - Roxas/Chain/P_EX100_WI
+    - Roxas/Chain/P_EX100_WI_BTLF
+    - Roxas/Chain/P_EX100_WI_MAGF
+    - Roxas/Chain/P_EX100_WI_KH1F
+    - Roxas/Chain/P_EX100_WI_TRIF
+    - Roxas/Chain/P_EX100_WI_ULTF
+    - Roxas/Chain/P_EX100_WI_HTLF
+    - Roxas/Chain/P_EX100_XM
+    - Roxas/Chain/P_EX100_XM_BTLF
+    - Roxas/Chain/P_EX100_XM_MAGF
+    - Roxas/Chain/P_EX100_XM_KH1F
+    - Roxas/Chain/P_EX100_XM_TRIF
+    - Roxas/Chain/P_EX100_XM_ULTF
+    - Roxas/Chain/P_EX100_XM_HTLF
+    - Roxas/Coat/P_EX100
+    - Roxas/Coat/P_EX100_BTLF
+    - Roxas/Coat/P_EX100_MAGF
+    - Roxas/Coat/P_EX100_KH1F
+    - Roxas/Coat/P_EX100_TRIF
+    - Roxas/Coat/P_EX100_ULTF
+    - Roxas/Coat/P_EX100_HTLF
+    - Roxas/Coat/P_EX100_NM
+    - Roxas/Coat/P_EX100_NM_BTLF
+    - Roxas/Coat/P_EX100_NM_MAGF
+    - Roxas/Coat/P_EX100_NM_KH1F
+    - Roxas/Coat/P_EX100_NM_TRIF
+    - Roxas/Coat/P_EX100_NM_ULTF
+    - Roxas/Coat/P_EX100_NM_HTLF
+    - Roxas/Coat/P_EX100_TR
+    - Roxas/Coat/P_EX100_TR_BTLF
+    - Roxas/Coat/P_EX100_TR_MAGF
+    - Roxas/Coat/P_EX100_TR_KH1F
+    - Roxas/Coat/P_EX100_TR_TRIF
+    - Roxas/Coat/P_EX100_TR_ULTF
+    - Roxas/Coat/P_EX100_TR_HTLF
+    - Roxas/Coat/P_EX100_WI
+    - Roxas/Coat/P_EX100_WI_BTLF
+    - Roxas/Coat/P_EX100_WI_MAGF
+    - Roxas/Coat/P_EX100_WI_KH1F
+    - Roxas/Coat/P_EX100_WI_TRIF
+    - Roxas/Coat/P_EX100_WI_ULTF
+    - Roxas/Coat/P_EX100_WI_HTLF
+    - Roxas/Coat/P_EX100_XM
+    - Roxas/Coat/P_EX100_XM_BTLF
+    - Roxas/Coat/P_EX100_XM_MAGF
+    - Roxas/Coat/P_EX100_XM_KH1F
+    - Roxas/Coat/P_EX100_XM_TRIF
+    - Roxas/Coat/P_EX100_XM_ULTF
+    - Roxas/Coat/P_EX100_XM_HTLF
     Lion Sora:
     - Shananas/P_LK100
+    - Roxas/P_LK100
+    Mermaid Sora:
+    - Roxas/P_LM100
     Card Sora:
     - Shananas/M_EX950_CARD
     Dice Sora:
@@ -149,7 +223,8 @@ Codomain:
     - All-in-One/P_EX030_DC
     - All-in-One/P_EX030_CO
     Jack Skellington: []
-    Roxas: []
+    Roxas:
+    - Roxas/P_EX110
   Weapon:
     Keyblade:
     - All-in-One/W_EX010_DetectionSaber
