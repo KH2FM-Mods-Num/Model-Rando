@@ -1,6 +1,6 @@
 import sys
 import os
-import json
+import yaml
 import random
 
 #Functions to write stuff
@@ -49,12 +49,12 @@ def randomodel(oldmodel):
 
 #Get KH2 model filenames
 currentDir = sys.argv[0].replace((sys.argv[0].split('\\')[-1]),'')
-objs = json.load(open(currentDir+'modellist.json'))
-objsextra = json.load(open(currentDir+'modellistextra.json'))
+objs = yaml.safe_load(open(currentDir+'modellist.yml'))
+objsextra = yaml.safe_load(open(currentDir+'modellistextra.yml'))
 
 #Write the mod.yml
 f = open(currentDir+'mod.yml','w',encoding='utf-8')
-f.write('description: Credits for PandaPyre for Final MiXaV Retexture\n')
+f.write('description: Credits for PandaPyre, Shananas, and GeminiHero for providing their respective textures.\n')
 f.write('assets:\n')
 for objtype in objs:
     obj = objs[objtype]
