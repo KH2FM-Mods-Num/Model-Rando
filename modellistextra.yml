@@ -383,6 +383,12 @@ Codomain:
     - MiXaV/M_EX020_NM
     - MiXaV/M_EX020_NM_RAW
     - MiXaV/M_EX020_WI_RAW
+    - Shananas/M_EX020
+    - Shananas/M_EX020_RAW
+    - Shananas/M_EX020_NM
+    - Shananas/M_EX020_NM_RAW
+    - Shananas/M_EX020_WI
+    - Shananas/M_EX020_WI_RAW
     Large Body:
     - Original/M_EX050
     - Original/M_EX050_WI
@@ -594,7 +600,10 @@ Codomain:
     Creeper:
     - MiXaV/M_EX880
     - Shananas/M_EX880
-    Demyx's Clones: []
+    Demyx's Clones:
+    - Shananas/M_EX880_DANCER
+    - Shananas/M_EX880_DANCER_EH
+    - Shananas/M_EX880_DANCER_LV99
     Dragoon:
     - MiXaV/M_EX890
     Assassin:
@@ -603,7 +612,8 @@ Codomain:
     - MiXaV/M_EX910
     Sniper:
     - MiXaV/M_EX920
-    Dancer: []
+    Dancer:
+    - Shananas/M_EX930
     Berserker:
     - MiXaV/M_EX940
     Gambler:
