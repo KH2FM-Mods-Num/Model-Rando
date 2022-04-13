@@ -627,6 +627,10 @@ Enemy:
   - M_EX850
   Creeper:
   - M_EX880
+  Demyx's Clones:
+  - M_EX880_DANCER
+  - M_EX880_DANCER_EH
+  - M_EX880_DANCER_LV99
   Dragoon:
   - M_EX890
   Assassin:
@@ -636,11 +640,13 @@ Enemy:
   Sniper:
   - M_EX920
   Dancer:
-  - M_EX960
+  - M_EX930
   Berserker:
   - M_EX940
   Gambler:
   - M_EX950
+  Sorcerer:
+  - M_EX960
   Dusk:
   - M_EX990
   - M_EX990_RTN

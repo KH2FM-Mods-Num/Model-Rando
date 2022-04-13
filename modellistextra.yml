@@ -123,6 +123,7 @@ Domain:
     Bolt Tower: []
     Berserker's Clay: []
     Creeper: []
+    Demyx's Clones: []
     Dragoon: []
     Assassin: []
     Samurai: []
@@ -130,6 +131,7 @@ Domain:
     Dancer: []
     Berserker: []
     Gambler: []
+    Sorcerer: []
     Dusk: []
     Pete: []
     Sark: []
@@ -259,8 +261,8 @@ Codomain:
     - MiXaV/B_AL100_ICE
     Thresholder:
     - Original/B_BB100
-    - MiXaV/B_BB100
     - Original/B_BB100_TSURU
+    - MiXaV/B_BB100
     - MiXaV/B_BB100_TSURU
     Dark Thorn:
     - MiXaV/B_BB110
@@ -292,8 +294,8 @@ Codomain:
     - MiXaV/B_EX140_LV99
     Luxord:
     - MiXaV/B_EX150
-    - Shananas/B_EX150
     - MiXaV/B_EX150_LV99
+    - Shananas/B_EX150
     - Shananas/B_EX150_LV99
     Saix:
     - MiXaV/B_EX160
@@ -343,17 +345,17 @@ Codomain:
     - MiXaV/F_BB060
     Fire Globe:
     - Original/M_AL020_FIRE
-    - MiXaV/M_AL020_FIRE
     - Original/M_AL020_FIRE_RAW
-    - MiXaV/M_AL020_FIRE_RAW
     - Original/M_AL020_FIRE2
+    - MiXaV/M_AL020_FIRE
+    - MiXaV/M_AL020_FIRE_RAW
     - MiXaV/M_AL020_FIRE2
     Icy Cube:
     - Original/M_AL020_ICEE
-    - MiXaV/M_AL020_ICEE
     - Original/M_AL020_ICEE_RAW
-    - MiXaV/M_AL020_ICEE_RAW
     - Original/M_AL020_ICEE2
+    - MiXaV/M_AL020_ICEE
+    - MiXaV/M_AL020_ICEE_RAW
     - MiXaV/M_AL020_ICEE2
     Gargoyle Warrior:
     - Original/M_BB010_AX
@@ -363,28 +365,28 @@ Codomain:
     - MiXaV/M_BB010_SWORD
     Soldier:
     - Original/M_EX010
-    - MiXaV/M_EX010
     - Original/M_EX010_NM
-    - MiXaV/M_EX010_NM
     - Original/M_EX010_TR
-    - MiXaV/M_EX010_TR
     - Original/M_EX010_WI
+    - MiXaV/M_EX010
+    - MiXaV/M_EX010_NM
+    - MiXaV/M_EX010_TR
     Shadow:
     - Original/M_EX020
-    - MiXaV/M_EX020
     - Original/M_EX020_RAW
-    - MiXaV/M_EX020_RAW
     - Original/M_EX020_NM
-    - MiXaV/M_EX020_NM
     - Original/M_EX020_NM_RAW
-    - MiXaV/M_EX020_NM_RAW
     - Original/M_EX020_WI
     - Original/M_EX020_WI_RAW
+    - MiXaV/M_EX020
+    - MiXaV/M_EX020_RAW
+    - MiXaV/M_EX020_NM
+    - MiXaV/M_EX020_NM_RAW
     - MiXaV/M_EX020_WI_RAW
     Large Body:
     - Original/M_EX050
-    - MiXaV/M_EX050
     - Original/M_EX050_WI
+    - MiXaV/M_EX050
     Fat Bandit:
     - Original/M_EX060
     - MiXaV/M_EX060
@@ -393,21 +395,21 @@ Codomain:
     - MiXaV/M_EX110
     Emerald Blues:
     - Original/M_EX120
+    - Original/M_EX120_NM
+    - Original/M_EX120_TR
     - MiXaV/M_EX120
     - MiXaV/M_EX120_HB
-    - Original/M_EX120_NM
     - MiXaV/M_EX120_NM
-    - Original/M_EX120_TR
     - MiXaV/M_EX120_TR
     Crimson Jazz:
     - Original/M_EX130
-    - MiXaV/M_EX130
     - Original/M_EX130_AL
+    - MiXaV/M_EX130
     - MiXaV/M_EX130_AL
     Wight Knight:
     - Original/M_EX200
-    - MiXaV/M_EX200
     - Original/M_EX200_NM
+    - MiXaV/M_EX200
     - MiXaV/M_EX200_NM
     Air Pirate:
     - Original/M_EX210
@@ -441,34 +443,34 @@ Codomain:
     - MiXaV/M_EX350_13
     Neoshadow:
     - Original/M_EX420
-    - MiXaV/M_EX420
     - Original/M_EX420_NM
+    - MiXaV/M_EX420
     - MiXaV/M_EX420_NM
     Trick Ghost:
     - Original/M_EX500
+    - Original/M_EX500_NM
     - MiXaV/M_EX500
     - MiXaV/M_EX500_HB
-    - Original/M_EX500_NM
     - MiXaV/M_EX500_NM
     Rabid Dog:
     - Original/M_EX510
     - MiXaV/M_EX510
     Hook Bat:
     - Original/M_EX520
-    - MiXaV/M_EX520
     - Original/M_EX520_AL
+    - MiXaV/M_EX520
     - MiXaV/M_EX520_AL
     - MiXaV/M_EX520_HB
     Bookmaster:
     - Original/M_EX530
+    - Original/M_EX530_TR
     - MiXaV/M_EX530
     - MiXaV/M_EX530_HB
-    - Original/M_EX530_TR
     - MiXaV/M_EX530_TR
     Aeroplane:
     - Original/M_EX540
-    - MiXaV/M_EX540
     - Original/M_EX540_WI
+    - MiXaV/M_EX540
     - MiXaV/M_EX540_WI
     Minute Bomb:
     - Original/M_EX550
@@ -494,23 +496,23 @@ Codomain:
     - MiXaV/M_EX610_RAW
     Fortuneteller:
     - Original/M_EX620
-    - MiXaV/M_EX620
     - Original/M_EX620_AL
+    - MiXaV/M_EX620
     - MiXaV/M_EX620_AL
     Luna Bandit:
     - Original/M_EX630
     - MiXaV/M_EX630
     Hot Rod:
     - Original/M_EX640
+    - Original/M_EX640_WI
     - MiXaV/M_EX640
     - MiXaV/M_EX640_HB
-    - Original/M_EX640_WI
     - MiXaV/M_EX640_WI
     Cannon Gun:
     - Original/M_EX650
+    - Original/M_EX650_TR
     - MiXaV/M_EX650
     - MiXaV/M_EX650_HB
-    - Original/M_EX650_TR
     - MiXaV/M_EX650_TR
     Rapid Thruster:
     - MiXaV/M_EX660
@@ -530,8 +532,8 @@ Codomain:
     - MiXaV/M_EX690_HB
     Driller Mole:
     - Original/M_EX700
-    - MiXaV/M_EX700
     - Original/M_EX700_NM
+    - MiXaV/M_EX700
     - MiXaV/M_EX700_NM
     Morning Star:
     - Original/M_EX710
@@ -548,38 +550,38 @@ Codomain:
     - MiXaV/M_EX740
     Armored Knight:
     - Original/M_EX760
-    - MiXaV/M_EX760
     - Original/M_EX760_RAW
-    - MiXaV/M_EX760_RAW
-    - Shananas/M_EX760_RAW
     - Original/M_EX760_NM
     - Original/M_EX760_NM_RAW
+    - MiXaV/M_EX760
+    - MiXaV/M_EX760_RAW
     - MiXaV/M_EX760_NM_RAW
+    - Shananas/M_EX760_RAW
     Surveillance Robot:
     - Original/M_EX770
-    - MiXaV/M_EX770
     - Original/M_EX770_RAW
-    - MiXaV/M_EX770_RAW
-    - Shananas/M_EX770_RAW
     - Original/M_EX770_TR
-    - MiXaV/M_EX770_TR
     - Original/M_EX770_TR_RAW
+    - MiXaV/M_EX770
+    - MiXaV/M_EX770_RAW
+    - MiXaV/M_EX770_TR
     - MiXaV/M_EX770_TR_RAW
+    - Shananas/M_EX770_RAW
     Aerial Knocker:
     - Original/M_EX780
     - MiXaV/M_EX780
     - MiXaV/M_EX780_HB
     Graveyard:
     - Original/M_EX790
-    - MiXaV/M_EX790
     - Original/M_EX790_HALLOWEEN
-    - MiXaV/M_EX790_HALLOWEEN
     - Original/M_EX790_HALLOWEEN_NM
+    - MiXaV/M_EX790
+    - MiXaV/M_EX790_HALLOWEEN
     - MiXaV/M_EX790_HALLOWEEN_NM
     Toy Soldier:
     - Original/M_EX790_CHRISTMAS
-    - MiXaV/M_EX790_CHRISTMAS
     - Original/M_EX790_CHRISTMAS_NM
+    - MiXaV/M_EX790_CHRISTMAS
     - MiXaV/M_EX790_CHRISTMAS_NM
     Bolt Tower:
     - MiXaV/M_EX800
@@ -592,6 +594,7 @@ Codomain:
     Creeper:
     - MiXaV/M_EX880
     - Shananas/M_EX880
+    Demyx's Clones: []
     Dragoon:
     - MiXaV/M_EX890
     Assassin:
@@ -600,17 +603,18 @@ Codomain:
     - MiXaV/M_EX910
     Sniper:
     - MiXaV/M_EX920
-    Dancer:
-    - MiXaV/M_EX960
+    Dancer: []
     Berserker:
     - MiXaV/M_EX940
     Gambler:
     - MiXaV/M_EX950
+    Sorcerer:
+    - MiXaV/M_EX960
     Dusk:
     - MiXaV/M_EX990
-    - Shananas/M_EX990
     - MiXaV/M_EX990_RTN
     - MiXaV/M_EX990_RTN_FIXCOLOR
+    - Shananas/M_EX990
     Pete:
     - MiXaV/N_EX760
     - MiXaV/N_EX760_BTL
