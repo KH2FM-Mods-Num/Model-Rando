@@ -296,7 +296,7 @@ Codomain:
     - MiXaV/B_EX150
     - MiXaV/B_EX150_LV99
     - Shananas/B_EX150
-    - Shananas/B_EX150_LV99
+    - Shananas/B_EX150 #_LV99
     Saix:
     - MiXaV/B_EX160
     - MiXaV/B_EX160_LV99
@@ -309,7 +309,7 @@ Codomain:
     - MiXaV/B_EX170_LAST_LV99
     Luxord's Cards:
     - Shananas/B_EX210
-    - Shananas/B_EX210_EH
+    - Shananas/B_EX210 #_EH
     Roxas:
     - MiXaV/B_EX390
     - Others/Unhooded Roxas
@@ -384,11 +384,11 @@ Codomain:
     - MiXaV/M_EX020_NM_RAW
     - MiXaV/M_EX020_WI_RAW
     - Shananas/M_EX020
-    - Shananas/M_EX020_RAW
-    - Shananas/M_EX020_NM
-    - Shananas/M_EX020_NM_RAW
-    - Shananas/M_EX020_WI
-    - Shananas/M_EX020_WI_RAW
+    - Shananas/M_EX020 #_RAW
+    - Shananas/M_EX020 #_NM
+    - Shananas/M_EX020 #_NM_RAW
+    - Shananas/M_EX020 #_WI
+    - Shananas/M_EX020 #_WI_RAW
     Large Body:
     - Original/M_EX050
     - Original/M_EX050_WI
@@ -602,8 +602,8 @@ Codomain:
     - Shananas/M_EX880
     Demyx's Clones:
     - Shananas/M_EX880_DANCER
-    - Shananas/M_EX880_DANCER_EH
-    - Shananas/M_EX880_DANCER_LV99
+    - Shananas/M_EX880_DANCER #_EH
+    - Shananas/M_EX880_DANCER #_LV99
     Dragoon:
     - MiXaV/M_EX890
     Assassin:
