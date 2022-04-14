@@ -345,15 +345,15 @@ Codomain:
     - MiXaV/F_BB060
     Fire Globe:
     - Original/M_AL020_FIRE
-    - Original/M_AL020_FIRE_RAW
-    - Original/M_AL020_FIRE2
+    - Original/M_AL020_FIRE #_RAW
+    - Original/M_AL020_FIRE #2
     - MiXaV/M_AL020_FIRE
     - MiXaV/M_AL020_FIRE_RAW
     - MiXaV/M_AL020_FIRE2
     Icy Cube:
     - Original/M_AL020_ICEE
-    - Original/M_AL020_ICEE_RAW
-    - Original/M_AL020_ICEE2
+    - Original/M_AL020_ICEE #_RAW
+    - Original/M_AL020_ICEE #2
     - MiXaV/M_AL020_ICEE
     - MiXaV/M_AL020_ICEE_RAW
     - MiXaV/M_AL020_ICEE2
@@ -373,11 +373,11 @@ Codomain:
     - MiXaV/M_EX010_TR
     Shadow:
     - Original/M_EX020
-    - Original/M_EX020_RAW
+    - Original/M_EX020 #_RAW
     - Original/M_EX020_NM
-    - Original/M_EX020_NM_RAW
+    - Original/M_EX020_NM #_RAW
     - Original/M_EX020_WI
-    - Original/M_EX020_WI_RAW
+    - Original/M_EX020_WI #_RAW
     - MiXaV/M_EX020
     - MiXaV/M_EX020_RAW
     - MiXaV/M_EX020_NM
@@ -409,7 +409,7 @@ Codomain:
     - MiXaV/M_EX120_TR
     Crimson Jazz:
     - Original/M_EX130
-    - Original/M_EX130_AL
+    - Original/M_EX130 #_AL
     - MiXaV/M_EX130
     - MiXaV/M_EX130_AL
     Wight Knight:
@@ -463,7 +463,7 @@ Codomain:
     - MiXaV/M_EX510
     Hook Bat:
     - Original/M_EX520
-    - Original/M_EX520_AL
+    - Original/M_EX520 #_AL
     - MiXaV/M_EX520
     - MiXaV/M_EX520_AL
     - MiXaV/M_EX520_HB
@@ -502,7 +502,7 @@ Codomain:
     - MiXaV/M_EX610_RAW
     Fortuneteller:
     - Original/M_EX620
-    - Original/M_EX620_AL
+    - Original/M_EX620 #_AL
     - MiXaV/M_EX620
     - MiXaV/M_EX620_AL
     Luna Bandit:
@@ -556,18 +556,18 @@ Codomain:
     - MiXaV/M_EX740
     Armored Knight:
     - Original/M_EX760
-    - Original/M_EX760_RAW
+    - Original/M_EX760 #_RAW
     - Original/M_EX760_NM
-    - Original/M_EX760_NM_RAW
+    - Original/M_EX760 #_NM_RAW
     - MiXaV/M_EX760
     - MiXaV/M_EX760_RAW
     - MiXaV/M_EX760_NM_RAW
     - Shananas/M_EX760_RAW
     Surveillance Robot:
     - Original/M_EX770
-    - Original/M_EX770_RAW
+    - Original/M_EX770 #_RAW
     - Original/M_EX770_TR
-    - Original/M_EX770_TR_RAW
+    - Original/M_EX770 #_TR_RAW
     - MiXaV/M_EX770
     - MiXaV/M_EX770_RAW
     - MiXaV/M_EX770_TR
@@ -579,7 +579,7 @@ Codomain:
     - MiXaV/M_EX780_HB
     Graveyard:
     - Original/M_EX790
-    - Original/M_EX790_HALLOWEEN
+    - Original/M_EX790 #_HALLOWEEN
     - Original/M_EX790_HALLOWEEN_NM
     - MiXaV/M_EX790
     - MiXaV/M_EX790_HALLOWEEN
