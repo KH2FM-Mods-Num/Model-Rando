@@ -278,35 +278,35 @@ Codomain:
     - MiXaV/B_EX100
     Axel:
     - MiXaV/B_EX110
-    - MiXaV/B_EX110_FRIEND
-    - MiXaV/B_EX110_LV99
-    - MiXaV/B_EX110_RTN
-    - MiXaV/B_EX110_SKIRMISH
+    - MiXaV/B_EX110 #_FRIEND
+    - MiXaV/B_EX110 #_LV99
+    - MiXaV/B_EX110 #_RTN
+    - MiXaV/B_EX110 #_SKIRMISH
     Demyx:
     - MiXaV/B_EX120
-    - MiXaV/B_EX120_HB
-    - MiXaV/B_EX120_HB_LV99
+    - MiXaV/B_EX120 #_HB
+    - MiXaV/B_EX120 #_HB_LV99
     Xaldin:
     - MiXaV/B_EX130
-    - MiXaV/B_EX130_LV99
+    - MiXaV/B_EX130 #_LV99
     Xigbar:
     - MiXaV/B_EX140
-    - MiXaV/B_EX140_LV99
+    - MiXaV/B_EX140 #_LV99
     Luxord:
     - MiXaV/B_EX150
-    - MiXaV/B_EX150_LV99
+    - MiXaV/B_EX150 #_LV99
     - Shananas/B_EX150
     - Shananas/B_EX150 #_LV99
     Saix:
     - MiXaV/B_EX160
-    - MiXaV/B_EX160_LV99
+    - MiXaV/B_EX160 #_LV99
     Xemnas I:
     - MiXaV/B_EX170
-    - MiXaV/B_EX170_LV99
-    - MiXaV/B_EX170_RTN
+    - MiXaV/B_EX170 #_LV99
+    - MiXaV/B_EX170 #_RTN
     Xemnas II:
     - MiXaV/B_EX170_LAST
-    - MiXaV/B_EX170_LAST_LV99
+    - MiXaV/B_EX170_LAST #_LV99
     Luxord's Cards:
     - Shananas/B_EX210
     - Shananas/B_EX210 #_EH
@@ -332,9 +332,9 @@ Codomain:
     - MiXaV/B_NM100
     Experiment:
     - MiXaV/B_NM110
-    - MiXaV/B_NM110_HEAD
-    - MiXaV/B_NM110_L_ARM
-    - MiXaV/B_NM110_R_ARM
+    - MiXaV/B_NM110 #_HEAD
+    - MiXaV/B_NM110 #_L_ARM
+    - MiXaV/B_NM110 #_R_ARM
     Hostile Program:
     - MiXaV/B_TR000
     MCP:
@@ -348,15 +348,15 @@ Codomain:
     - Original/M_AL020_FIRE #_RAW
     - Original/M_AL020_FIRE #2
     - MiXaV/M_AL020_FIRE
-    - MiXaV/M_AL020_FIRE_RAW
-    - MiXaV/M_AL020_FIRE2
+    - MiXaV/M_AL020_FIRE #_RAW
+    - MiXaV/M_AL020_FIRE #2
     Icy Cube:
     - Original/M_AL020_ICEE
     - Original/M_AL020_ICEE #_RAW
     - Original/M_AL020_ICEE #2
     - MiXaV/M_AL020_ICEE
-    - MiXaV/M_AL020_ICEE_RAW
-    - MiXaV/M_AL020_ICEE2
+    - MiXaV/M_AL020_ICEE #_RAW
+    - MiXaV/M_AL020_ICEE #2
     Gargoyle Warrior:
     - Original/M_BB010_AX
     - MiXaV/M_BB010_AX
@@ -379,9 +379,9 @@ Codomain:
     - Original/M_EX020_WI
     - Original/M_EX020_WI #_RAW
     - MiXaV/M_EX020
-    - MiXaV/M_EX020_RAW
+    - MiXaV/M_EX020 #_RAW
     - MiXaV/M_EX020_NM
-    - MiXaV/M_EX020_NM_RAW
+    - MiXaV/M_EX020_NM #_RAW
     - MiXaV/M_EX020_WI_RAW
     - Shananas/M_EX020
     - Shananas/M_EX020 #_RAW
@@ -411,7 +411,7 @@ Codomain:
     - Original/M_EX130
     - Original/M_EX130 #_AL
     - MiXaV/M_EX130
-    - MiXaV/M_EX130_AL
+    - MiXaV/M_EX130 #_AL
     Wight Knight:
     - Original/M_EX200
     - Original/M_EX200_NM
@@ -465,7 +465,7 @@ Codomain:
     - Original/M_EX520
     - Original/M_EX520 #_AL
     - MiXaV/M_EX520
-    - MiXaV/M_EX520_AL
+    - MiXaV/M_EX520 #_AL
     - MiXaV/M_EX520_HB
     Bookmaster:
     - Original/M_EX530
@@ -499,12 +499,12 @@ Codomain:
     - MiXaV/M_EX600
     Strafer:
     - MiXaV/M_EX610
-    - MiXaV/M_EX610_RAW
+    - MiXaV/M_EX610 #_RAW
     Fortuneteller:
     - Original/M_EX620
     - Original/M_EX620 #_AL
     - MiXaV/M_EX620
-    - MiXaV/M_EX620_AL
+    - MiXaV/M_EX620 #_AL
     Luna Bandit:
     - Original/M_EX630
     - MiXaV/M_EX630
@@ -522,8 +522,8 @@ Codomain:
     - MiXaV/M_EX650_TR
     Rapid Thruster:
     - MiXaV/M_EX660
-    - MiXaV/M_EX660_RAW
-    - MiXaV/M_EX660_AL
+    - MiXaV/M_EX660 #_RAW
+    - MiXaV/M_EX660 #_AL
     - MiXaV/M_EX660_WI_RAW
     Living Bone:
     - Original/M_EX670
@@ -560,8 +560,8 @@ Codomain:
     - Original/M_EX760_NM
     - Original/M_EX760 #_NM_RAW
     - MiXaV/M_EX760
-    - MiXaV/M_EX760_RAW
-    - MiXaV/M_EX760_NM_RAW
+    - MiXaV/M_EX760 #_RAW
+    - MiXaV/M_EX760 #_NM_RAW
     - Shananas/M_EX760_RAW
     Surveillance Robot:
     - Original/M_EX770
@@ -569,9 +569,9 @@ Codomain:
     - Original/M_EX770_TR
     - Original/M_EX770 #_TR_RAW
     - MiXaV/M_EX770
-    - MiXaV/M_EX770_RAW
+    - MiXaV/M_EX770 #_RAW
     - MiXaV/M_EX770_TR
-    - MiXaV/M_EX770_TR_RAW
+    - MiXaV/M_EX770 #_TR_RAW
     - Shananas/M_EX770_RAW
     Aerial Knocker:
     - Original/M_EX780
@@ -582,7 +582,7 @@ Codomain:
     - Original/M_EX790 #_HALLOWEEN
     - Original/M_EX790_HALLOWEEN_NM
     - MiXaV/M_EX790
-    - MiXaV/M_EX790_HALLOWEEN
+    - MiXaV/M_EX790 #_HALLOWEEN
     - MiXaV/M_EX790_HALLOWEEN_NM
     Toy Soldier:
     - Original/M_EX790_CHRISTMAS
@@ -591,10 +591,10 @@ Codomain:
     - MiXaV/M_EX790_CHRISTMAS_NM
     Bolt Tower:
     - MiXaV/M_EX800
-    - MiXaV/M_EX800_RAW
-    - MiXaV/M_EX800_DC
+    - MiXaV/M_EX800 #_RAW
+    - MiXaV/M_EX800 #_DC
     - MiXaV/M_EX800_MU
-    - MiXaV/M_EX800_MU_RAW
+    - MiXaV/M_EX800 #_MU_RAW
     Berserker's Clay:
     - MiXaV/M_EX850
     Creeper:
@@ -622,17 +622,17 @@ Codomain:
     - MiXaV/M_EX960
     Dusk:
     - MiXaV/M_EX990
-    - MiXaV/M_EX990_RTN
-    - MiXaV/M_EX990_RTN_FIXCOLOR
+    - MiXaV/M_EX990 #_RTN
+    - MiXaV/M_EX990 #_RTN_FIXCOLOR
     - Shananas/M_EX990
     Pete:
     - MiXaV/N_EX760
-    - MiXaV/N_EX760_BTL
-    - MiXaV/N_EX760_BTL_CLSM
-    - MiXaV/N_EX760_BTL_HERCULES
-    - MiXaV/N_EX760_BTL_MEGARA
-    - MiXaV/N_EX760_BTL_WILLY
-    - MiXaV/N_EX760_RTN
+    - MiXaV/N_EX760 #_BTL
+    - MiXaV/N_EX760 #_BTL_CLSM
+    - MiXaV/N_EX760 #_BTL_HERCULES
+    - MiXaV/N_EX760 #_BTL_MEGARA
+    - MiXaV/N_EX760 #_BTL_WILLY
+    - MiXaV/N_EX760 #_RTN
     Sark:
     - MiXaV/N_TR010_BTL
     Giant Sark:
