@@ -44,6 +44,11 @@ Party:
     - PO08_PLAYER
     - AL14_PLAYER
     ExtraCodomain:
+    - Roxas/P_EX100_NM_HTLF
+    - Roxas/P_EX100_TR_HTLF
+    - Roxas/P_EX100_WI_KH1F
+    - Roxas/P_EX100_WI_HTLF
+    - Roxas/P_EX100_XM_HTLF
     - Roxas/Chain/P_EX100
     - Roxas/Chain/P_EX100_BTLF
     - Roxas/Chain/P_EX100_MAGF
@@ -57,28 +62,23 @@ Party:
     - Roxas/Chain/P_EX100_NM_KH1F
     - Roxas/Chain/P_EX100_NM_TRIF
     - Roxas/Chain/P_EX100_NM_ULTF
-    - Roxas/Chain/P_EX100_NM_HTLF
     - Roxas/Chain/P_EX100_TR
     - Roxas/Chain/P_EX100_TR_BTLF
     - Roxas/Chain/P_EX100_TR_MAGF
     - Roxas/Chain/P_EX100_TR_KH1F
     - Roxas/Chain/P_EX100_TR_TRIF
     - Roxas/Chain/P_EX100_TR_ULTF
-    - Roxas/Chain/P_EX100_TR_HTLF
     - Roxas/Chain/P_EX100_WI
     - Roxas/Chain/P_EX100_WI_BTLF
     - Roxas/Chain/P_EX100_WI_MAGF
-    - Roxas/Chain/P_EX100_WI_KH1F
     - Roxas/Chain/P_EX100_WI_TRIF
     - Roxas/Chain/P_EX100_WI_ULTF
-    - Roxas/Chain/P_EX100_WI_HTLF
     - Roxas/Chain/P_EX100_XM
     - Roxas/Chain/P_EX100_XM_BTLF
     - Roxas/Chain/P_EX100_XM_MAGF
     - Roxas/Chain/P_EX100_XM_KH1F
     - Roxas/Chain/P_EX100_XM_TRIF
     - Roxas/Chain/P_EX100_XM_ULTF
-    - Roxas/Chain/P_EX100_XM_HTLF
     - Roxas/Coat/P_EX100
     - Roxas/Coat/P_EX100_BTLF
     - Roxas/Coat/P_EX100_MAGF
@@ -92,28 +92,23 @@ Party:
     - Roxas/Coat/P_EX100_NM_KH1F
     - Roxas/Coat/P_EX100_NM_TRIF
     - Roxas/Coat/P_EX100_NM_ULTF
-    - Roxas/Coat/P_EX100_NM_HTLF
     - Roxas/Coat/P_EX100_TR
     - Roxas/Coat/P_EX100_TR_BTLF
     - Roxas/Coat/P_EX100_TR_MAGF
     - Roxas/Coat/P_EX100_TR_KH1F
     - Roxas/Coat/P_EX100_TR_TRIF
     - Roxas/Coat/P_EX100_TR_ULTF
-    - Roxas/Coat/P_EX100_TR_HTLF
     - Roxas/Coat/P_EX100_WI
     - Roxas/Coat/P_EX100_WI_BTLF
     - Roxas/Coat/P_EX100_WI_MAGF
-    - Roxas/Coat/P_EX100_WI_KH1F
     - Roxas/Coat/P_EX100_WI_TRIF
     - Roxas/Coat/P_EX100_WI_ULTF
-    - Roxas/Coat/P_EX100_WI_HTLF
     - Roxas/Coat/P_EX100_XM
     - Roxas/Coat/P_EX100_XM_BTLF
     - Roxas/Coat/P_EX100_XM_MAGF
     - Roxas/Coat/P_EX100_XM_KH1F
     - Roxas/Coat/P_EX100_XM_TRIF
     - Roxas/Coat/P_EX100_XM_ULTF
-    - Roxas/Coat/P_EX100_XM_HTLF
   Lion Sora:
     Base:
     - P_LK100
@@ -490,10 +485,10 @@ Chest:
     - F_EX030_NM_XMAS
     - F_EX030_PO
     - F_EX030_TR
-    - F_EX030_TT
     - F_EX030_WI
     ExtraDomain:
     - F_EX030_HB
+    - F_EX030_TT
     ExtraCodomain:
     - All-in-One/F_EX030_HB
   Large:
@@ -511,9 +506,9 @@ Chest:
     - F_EX040_NM_XMAS
     - F_EX040_PO
     - F_EX040_TR
-    - F_EX040_TT
     - F_EX040_WI
-    ExtraDomain: []
+    ExtraDomain:
+    - F_EX040_TT
     ExtraCodomain: []
 Enemy:
   Genie Jafar:
@@ -633,8 +628,8 @@ Enemy:
   Xemnas II:
     Base:
     - B_EX170_LAST
+    ExtraDomain:
     - B_EX170_LAST_LV99
-    ExtraDomain: []
     ExtraCodomain:
     - MiXaV/B_EX170_LAST
   Luxord's Cards:
@@ -751,7 +746,6 @@ Enemy:
     - M_AL020_FIRE_RAW
     - M_AL020_FIRE2
     ExtraCodomain:
-    - Original/M_AL020_FIRE
     - MiXaV/M_AL020_FIRE
   Icy Cube:
     Base:
@@ -760,21 +754,18 @@ Enemy:
     - M_AL020_ICEE_RAW
     - M_AL020_ICEE2
     ExtraCodomain:
-    - Original/M_AL020_ICEE
     - MiXaV/M_AL020_ICEE
   Gargoyle Warrior:
     Base:
     - M_BB010_AX
     ExtraDomain: []
     ExtraCodomain:
-    - Original/M_BB010_AX
     - MiXaV/M_BB010_AX
   Gargoyle Knight:
     Base:
     - M_BB010_SWORD
     ExtraDomain: []
     ExtraCodomain:
-    - Original/M_BB010_SWORD
     - MiXaV/M_BB010_SWORD
   Soldier:
     Base:
@@ -786,8 +777,6 @@ Enemy:
     ExtraCodomain:
     - Original/M_EX010
     - Original/M_EX010_NM
-    - Original/M_EX010_TR
-    - Original/M_EX010_WI
     - MiXaV/M_EX010
     - MiXaV/M_EX010_NM
     - MiXaV/M_EX010_TR
@@ -801,9 +790,6 @@ Enemy:
     - M_EX020_NM_RAW
     - M_EX020_WI_RAW
     ExtraCodomain:
-    - Original/M_EX020
-    - Original/M_EX020_NM
-    - Original/M_EX020_WI
     - MiXaV/M_EX020
     - MiXaV/M_EX020_NM
     - MiXaV/M_EX020_WI_RAW
@@ -815,7 +801,6 @@ Enemy:
     ExtraDomain: []
     ExtraCodomain:
     - Original/M_EX050
-    - Original/M_EX050_WI
     - MiXaV/M_EX050
   Fat Bandit:
     Base:
@@ -829,7 +814,6 @@ Enemy:
     - M_EX110
     ExtraDomain: []
     ExtraCodomain:
-    - Original/M_EX110
     - MiXaV/M_EX110
   Emerald Blues:
     Base:
@@ -839,9 +823,6 @@ Enemy:
     - M_EX120_TR
     ExtraDomain: []
     ExtraCodomain:
-    - Original/M_EX120
-    - Original/M_EX120_NM
-    - Original/M_EX120_TR
     - MiXaV/M_EX120
     - MiXaV/M_EX120_HB
     - MiXaV/M_EX120_NM
@@ -852,7 +833,6 @@ Enemy:
     ExtraDomain:
     - M_EX130_AL
     ExtraCodomain:
-    - Original/M_EX130 #_AL
     - MiXaV/M_EX130
   Wight Knight:
     Base:
@@ -957,8 +937,6 @@ Enemy:
     - M_EX420_NM
     ExtraDomain: []
     ExtraCodomain:
-    - Original/M_EX420
-    - Original/M_EX420_NM
     - MiXaV/M_EX420
     - MiXaV/M_EX420_NM
   Trick Ghost:
@@ -998,7 +976,6 @@ Enemy:
     ExtraDomain: []
     ExtraCodomain:
     - Original/M_EX530
-    - Original/M_EX530_TR
     - MiXaV/M_EX530
     - MiXaV/M_EX530_HB
     - MiXaV/M_EX530_TR
@@ -1009,7 +986,6 @@ Enemy:
     ExtraDomain: []
     ExtraCodomain:
     - Original/M_EX540
-    - Original/M_EX540_WI
     - MiXaV/M_EX540
     - MiXaV/M_EX540_WI
   Minute Bomb:
@@ -1041,7 +1017,6 @@ Enemy:
     - M_EX580
     ExtraDomain: []
     ExtraCodomain:
-    - Original/M_EX580
     - MiXaV/M_EX580
   Bulky Vendor:
     Base:
@@ -1092,7 +1067,6 @@ Enemy:
     ExtraDomain: []
     ExtraCodomain:
     - Original/M_EX640
-    - Original/M_EX640_WI
     - MiXaV/M_EX640
     - MiXaV/M_EX640_HB
     - MiXaV/M_EX640_WI
@@ -1104,16 +1078,15 @@ Enemy:
     ExtraDomain: []
     ExtraCodomain:
     - Original/M_EX650
-    - Original/M_EX650_TR
     - MiXaV/M_EX650
     - MiXaV/M_EX650_HB
     - MiXaV/M_EX650_TR
   Rapid Thruster:
     Base:
     - M_EX660
-    - M_EX660_AL
     - M_EX660_WI
     ExtraDomain:
+    - M_EX660_AL
     - M_EX660_RAW
     - M_EX660_WI_RAW
     ExtraCodomain:
@@ -1132,7 +1105,6 @@ Enemy:
     - M_EX680_HB
     ExtraDomain: []
     ExtraCodomain:
-    - Original/M_EX680
     - MiXaV/M_EX680
     - MiXaV/M_EX680_HB
   Lance Soldier:
@@ -1192,8 +1164,6 @@ Enemy:
     - M_EX760_RAW
     - M_EX760_NM_RAW
     ExtraCodomain:
-    - Original/M_EX760
-    - Original/M_EX760_NM
     - MiXaV/M_EX760
     - Shananas/M_EX760_RAW
   Surveillance Robot:
@@ -1204,8 +1174,6 @@ Enemy:
     - M_EX770_RAW
     - M_EX770_TR_RAW
     ExtraCodomain:
-    - Original/M_EX770
-    - Original/M_EX770_TR
     - MiXaV/M_EX770
     - MiXaV/M_EX770_TR
     - Shananas/M_EX770_RAW
