@@ -50,13 +50,6 @@ def writemodel(old,new):
             f.write('    source:\n')
             f.write('    - name: '+new+'.tim\n')
 
-def randomodel(oldmodel):
-    global subfile
-    newmodel = random.sample(oldmodel,len(oldmodel))
-    for i in range(len(oldmodel)):
-        subfile = oldmodel[i][:4].lower()
-        writemodel(oldmodel[i],newmodel[i])
-
 #Get KH2 model filenames
 currentDir = sys.argv[0].replace((sys.argv[0].split('\\')[-1]),'')
 objs = yaml.safe_load(open(currentDir+'modellist.yml'))
