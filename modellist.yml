@@ -1,665 +1,1371 @@
 Party:
   Sora:
-  - P_EX100
-  - P_EX100_BTLF
-  - P_EX100_MAGF
-  - P_EX100_KH1F
-  - P_EX100_TRIF
-  - P_EX100_ULTF
-  - P_EX100_HTLF
-  - P_EX100_NM
-  - P_EX100_NM_BTLF
-  - P_EX100_NM_MAGF
-  - P_EX100_NM_KH1F
-  - P_EX100_NM_TRIF
-  - P_EX100_NM_ULTF
-  - P_EX100_NM_HTLF
-  - P_EX100_TR
-  - P_EX100_TR_BTLF
-  - P_EX100_TR_MAGF
-  - P_EX100_TR_KH1F
-  - P_EX100_TR_TRIF
-  - P_EX100_TR_ULTF
-  - P_EX100_TR_HTLF
-  - P_EX100_WI
-  - P_EX100_WI_BTLF
-  - P_EX100_WI_MAGF
-  - P_EX100_WI_KH1F
-  - P_EX100_WI_TRIF
-  - P_EX100_WI_ULTF
-  - P_EX100_WI_HTLF
-  - P_EX100_XM
-  - P_EX100_XM_BTLF
-  - P_EX100_XM_MAGF
-  - P_EX100_XM_KH1F
-  - P_EX100_XM_TRIF
-  - P_EX100_XM_ULTF
-  - P_EX100_XM_HTLF
-  - P_EX100_AL_CARPET
-  - P_EX100_TR_LIGHTCYCLE
-  - PO06_PLAYER
-  - PO07_PLAYER
-  - PO08_PLAYER
-  - AL14_PLAYER
+    Base:
+    - P_EX100
+    - P_EX100_BTLF
+    - P_EX100_MAGF
+    - P_EX100_KH1F
+    - P_EX100_TRIF
+    - P_EX100_ULTF
+    - P_EX100_HTLF
+    - P_EX100_NM
+    - P_EX100_NM_BTLF
+    - P_EX100_NM_MAGF
+    - P_EX100_NM_KH1F
+    - P_EX100_NM_TRIF
+    - P_EX100_NM_ULTF
+    - P_EX100_NM_HTLF
+    - P_EX100_TR
+    - P_EX100_TR_BTLF
+    - P_EX100_TR_MAGF
+    - P_EX100_TR_KH1F
+    - P_EX100_TR_TRIF
+    - P_EX100_TR_ULTF
+    - P_EX100_TR_HTLF
+    - P_EX100_WI
+    - P_EX100_WI_BTLF
+    - P_EX100_WI_MAGF
+    - P_EX100_WI_KH1F
+    - P_EX100_WI_TRIF
+    - P_EX100_WI_ULTF
+    - P_EX100_WI_HTLF
+    - P_EX100_XM
+    - P_EX100_XM_BTLF
+    - P_EX100_XM_MAGF
+    - P_EX100_XM_KH1F
+    - P_EX100_XM_TRIF
+    - P_EX100_XM_ULTF
+    - P_EX100_XM_HTLF
+    ExtraDomain:
+    - P_EX100_AL_CARPET
+    - P_EX100_TR_LIGHTCYCLE
+    - PO06_PLAYER
+    - PO07_PLAYER
+    - PO08_PLAYER
+    - AL14_PLAYER
+    ExtraCodomain:
+    - Roxas/Chain/P_EX100
+    - Roxas/Chain/P_EX100_BTLF
+    - Roxas/Chain/P_EX100_MAGF
+    - Roxas/Chain/P_EX100_KH1F
+    - Roxas/Chain/P_EX100_TRIF
+    - Roxas/Chain/P_EX100_ULTF
+    - Roxas/Chain/P_EX100_HTLF
+    - Roxas/Chain/P_EX100_NM
+    - Roxas/Chain/P_EX100_NM_BTLF
+    - Roxas/Chain/P_EX100_NM_MAGF
+    - Roxas/Chain/P_EX100_NM_KH1F
+    - Roxas/Chain/P_EX100_NM_TRIF
+    - Roxas/Chain/P_EX100_NM_ULTF
+    - Roxas/Chain/P_EX100_NM_HTLF
+    - Roxas/Chain/P_EX100_TR
+    - Roxas/Chain/P_EX100_TR_BTLF
+    - Roxas/Chain/P_EX100_TR_MAGF
+    - Roxas/Chain/P_EX100_TR_KH1F
+    - Roxas/Chain/P_EX100_TR_TRIF
+    - Roxas/Chain/P_EX100_TR_ULTF
+    - Roxas/Chain/P_EX100_TR_HTLF
+    - Roxas/Chain/P_EX100_WI
+    - Roxas/Chain/P_EX100_WI_BTLF
+    - Roxas/Chain/P_EX100_WI_MAGF
+    - Roxas/Chain/P_EX100_WI_KH1F
+    - Roxas/Chain/P_EX100_WI_TRIF
+    - Roxas/Chain/P_EX100_WI_ULTF
+    - Roxas/Chain/P_EX100_WI_HTLF
+    - Roxas/Chain/P_EX100_XM
+    - Roxas/Chain/P_EX100_XM_BTLF
+    - Roxas/Chain/P_EX100_XM_MAGF
+    - Roxas/Chain/P_EX100_XM_KH1F
+    - Roxas/Chain/P_EX100_XM_TRIF
+    - Roxas/Chain/P_EX100_XM_ULTF
+    - Roxas/Chain/P_EX100_XM_HTLF
+    - Roxas/Coat/P_EX100
+    - Roxas/Coat/P_EX100_BTLF
+    - Roxas/Coat/P_EX100_MAGF
+    - Roxas/Coat/P_EX100_KH1F
+    - Roxas/Coat/P_EX100_TRIF
+    - Roxas/Coat/P_EX100_ULTF
+    - Roxas/Coat/P_EX100_HTLF
+    - Roxas/Coat/P_EX100_NM
+    - Roxas/Coat/P_EX100_NM_BTLF
+    - Roxas/Coat/P_EX100_NM_MAGF
+    - Roxas/Coat/P_EX100_NM_KH1F
+    - Roxas/Coat/P_EX100_NM_TRIF
+    - Roxas/Coat/P_EX100_NM_ULTF
+    - Roxas/Coat/P_EX100_NM_HTLF
+    - Roxas/Coat/P_EX100_TR
+    - Roxas/Coat/P_EX100_TR_BTLF
+    - Roxas/Coat/P_EX100_TR_MAGF
+    - Roxas/Coat/P_EX100_TR_KH1F
+    - Roxas/Coat/P_EX100_TR_TRIF
+    - Roxas/Coat/P_EX100_TR_ULTF
+    - Roxas/Coat/P_EX100_TR_HTLF
+    - Roxas/Coat/P_EX100_WI
+    - Roxas/Coat/P_EX100_WI_BTLF
+    - Roxas/Coat/P_EX100_WI_MAGF
+    - Roxas/Coat/P_EX100_WI_KH1F
+    - Roxas/Coat/P_EX100_WI_TRIF
+    - Roxas/Coat/P_EX100_WI_ULTF
+    - Roxas/Coat/P_EX100_WI_HTLF
+    - Roxas/Coat/P_EX100_XM
+    - Roxas/Coat/P_EX100_XM_BTLF
+    - Roxas/Coat/P_EX100_XM_MAGF
+    - Roxas/Coat/P_EX100_XM_KH1F
+    - Roxas/Coat/P_EX100_XM_TRIF
+    - Roxas/Coat/P_EX100_XM_ULTF
+    - Roxas/Coat/P_EX100_XM_HTLF
   Lion Sora:
-  - P_LK100
+    Base:
+    - P_LK100
+    ExtraDomain: []
+    ExtraCodomain:
+    - Shananas/P_LK100
+    - Roxas/P_LK100
   Mermaid Sora:
-  - P_LM100
+    Base:
+    - P_LM100
+    ExtraDomain: []
+    ExtraCodomain:
+    - Roxas/P_LM100
   Card Sora:
-  - M_EX950_CARD
+    Base:
+    - M_EX950_CARD
+    ExtraDomain: []
+    ExtraCodomain:
+    - Shananas/M_EX950_CARD
   Dice Sora:
-  - M_EX950_DICE
+    Base:
+    - M_EX950_DICE
+    ExtraDomain: []
+    ExtraCodomain:
+    - Shananas/M_EX950_DICE
   Donald:
-  - P_EX020
-  - P_EX020_NM
-  - P_EX020_TR
-  - P_EX020_XM
+    Base:
+    - P_EX020
+    - P_EX020_NM
+    - P_EX020_TR
+    - P_EX020_XM
+    ExtraDomain:
+    - P_EX020_DC
+    - P_EX020_CO
+    ExtraCodomain:
+    - All-in-One/P_EX020_DC
+    - All-in-One/P_EX020_CO
   Goofy:
-  - P_EX030
-  - P_EX030_NM
-  - P_EX030_TR
-  - P_EX030_XM
+    Base:
+    - P_EX030
+    - P_EX030_NM
+    - P_EX030_TR
+    - P_EX030_XM
+    ExtraDomain:
+    - P_EX030_DC
+    - P_EX030_CO
+    ExtraCodomain:
+    - All-in-One/P_EX030_DC
+    - All-in-One/P_EX030_CO
   Jack Skellington:
-  - P_NM000
-  - P_NM000_SANTA
+    Base:
+    - P_NM000
+    - P_NM000_SANTA
+    ExtraDomain: []
+    ExtraCodomain: []
   Roxas:
-  - P_EX110
-  - P_EX110_BTLF
+    Base:
+    - P_EX110
+    ExtraDomain:
+    - P_EX110_BTLF
+    ExtraCodomain:
+    - Roxas/P_EX110
 Weapon:
   Keyblade:
-  - W_EX010
-  - W_EX010_NM
-  - W_EX010_TR
-  - W_EX010_WI
-  - W_EX010_10
-  - W_EX010_10_NM
-  - W_EX010_10_TR
-  - W_EX010_10_WI
-  - W_EX010_20
-  - W_EX010_20_NM
-  - W_EX010_20_TR
-  - W_EX010_20_WI
-  - W_EX010_30
-  - W_EX010_30_NM
-  - W_EX010_30_TR
-  - W_EX010_30_WI
-  - W_EX010_40
-  - W_EX010_40_NM
-  - W_EX010_40_TR
-  - W_EX010_40_WI
-  - W_EX010_50
-  - W_EX010_50_NM
-  - W_EX010_50_TR
-  - W_EX010_50_WI
-  - W_EX010_60
-  - W_EX010_60_NM
-  - W_EX010_60_TR
-  - W_EX010_60_WI
-  - W_EX010_70
-  - W_EX010_70_NM
-  - W_EX010_70_TR
-  - W_EX010_70_WI
-  - W_EX010_80
-  - W_EX010_80_NM
-  - W_EX010_80_TR
-  - W_EX010_80_WI
-  - W_EX010_90
-  - W_EX010_90_NM
-  - W_EX010_90_TR
-  - W_EX010_90_WI
-  - W_EX010_A0
-  - W_EX010_A0_NM
-  - W_EX010_A0_TR
-  - W_EX010_A0_WI
-  - W_EX010_B0
-  - W_EX010_B0_NM
-  - W_EX010_B0_TR
-  - W_EX010_B0_WI
-  - W_EX010_C0
-  - W_EX010_C0_NM
-  - W_EX010_C0_TR
-  - W_EX010_C0_WI
-  - W_EX010_D0
-  - W_EX010_D0_NM
-  - W_EX010_D0_TR
-  - W_EX010_D0_WI
-  - W_EX010_E0
-  - W_EX010_E0_NM
-  - W_EX010_E0_TR
-  - W_EX010_E0_WI
-  - W_EX010_F0
-  - W_EX010_F0_NM
-  - W_EX010_F0_TR
-  - W_EX010_F0_WI
-  - W_EX010_G0
-  - W_EX010_G0_NM
-  - W_EX010_G0_TR
-  - W_EX010_G0_WI
-  - W_EX010_H0
-  - W_EX010_H0_NM
-  - W_EX010_H0_TR
-  - W_EX010_H0_WI
-  - W_EX010_J0
-  - W_EX010_J0_NM
-  - W_EX010_J0_TR
-  - W_EX010_J0_WI
-  - W_EX010_K0
-  - W_EX010_K0_NM
-  - W_EX010_K0_TR
-  - W_EX010_K0_WI
-  - W_EX010_M0
-  - W_EX010_M0_NM
-  - W_EX010_M0_TR
-  - W_EX010_M0_WI
-  - W_EX010_N0
-  - W_EX010_N0_NM
-  - W_EX010_N0_TR
-  - W_EX010_N0_WI
-  - W_EX010_P0
-  - W_EX010_P0_NM
-  - W_EX010_P0_TR
-  - W_EX010_P0_WI
-  - W_EX010_R0
-  - W_EX010_R0_NM
-  - W_EX010_R0_TR
-  - W_EX010_R0_WI
-  - W_EX010_U0
-  - W_EX010_V0
-  - W_EX010_W0
-  - W_EX010_Y0
-  - W_EX010_Z0
+    Base:
+    - W_EX010
+    - W_EX010_NM
+    - W_EX010_TR
+    - W_EX010_WI
+    - W_EX010_10
+    - W_EX010_10_NM
+    - W_EX010_10_TR
+    - W_EX010_10_WI
+    - W_EX010_20
+    - W_EX010_20_NM
+    - W_EX010_20_TR
+    - W_EX010_20_WI
+    - W_EX010_30
+    - W_EX010_30_NM
+    - W_EX010_30_TR
+    - W_EX010_30_WI
+    - W_EX010_40
+    - W_EX010_40_NM
+    - W_EX010_40_TR
+    - W_EX010_40_WI
+    - W_EX010_50
+    - W_EX010_50_NM
+    - W_EX010_50_TR
+    - W_EX010_50_WI
+    - W_EX010_60
+    - W_EX010_60_NM
+    - W_EX010_60_TR
+    - W_EX010_60_WI
+    - W_EX010_70
+    - W_EX010_70_NM
+    - W_EX010_70_TR
+    - W_EX010_70_WI
+    - W_EX010_80
+    - W_EX010_80_NM
+    - W_EX010_80_TR
+    - W_EX010_80_WI
+    - W_EX010_90
+    - W_EX010_90_NM
+    - W_EX010_90_TR
+    - W_EX010_90_WI
+    - W_EX010_A0
+    - W_EX010_A0_NM
+    - W_EX010_A0_TR
+    - W_EX010_A0_WI
+    - W_EX010_B0
+    - W_EX010_B0_NM
+    - W_EX010_B0_TR
+    - W_EX010_B0_WI
+    - W_EX010_C0
+    - W_EX010_C0_NM
+    - W_EX010_C0_TR
+    - W_EX010_C0_WI
+    - W_EX010_D0
+    - W_EX010_D0_NM
+    - W_EX010_D0_TR
+    - W_EX010_D0_WI
+    - W_EX010_E0
+    - W_EX010_E0_NM
+    - W_EX010_E0_TR
+    - W_EX010_E0_WI
+    - W_EX010_F0
+    - W_EX010_F0_NM
+    - W_EX010_F0_TR
+    - W_EX010_F0_WI
+    - W_EX010_G0
+    - W_EX010_G0_NM
+    - W_EX010_G0_TR
+    - W_EX010_G0_WI
+    - W_EX010_H0
+    - W_EX010_H0_NM
+    - W_EX010_H0_TR
+    - W_EX010_H0_WI
+    - W_EX010_J0
+    - W_EX010_J0_NM
+    - W_EX010_J0_TR
+    - W_EX010_J0_WI
+    - W_EX010_K0
+    - W_EX010_K0_NM
+    - W_EX010_K0_TR
+    - W_EX010_K0_WI
+    - W_EX010_M0
+    - W_EX010_M0_NM
+    - W_EX010_M0_TR
+    - W_EX010_M0_WI
+    - W_EX010_N0
+    - W_EX010_N0_NM
+    - W_EX010_N0_TR
+    - W_EX010_N0_WI
+    - W_EX010_P0
+    - W_EX010_P0_NM
+    - W_EX010_P0_TR
+    - W_EX010_P0_WI
+    - W_EX010_R0
+    - W_EX010_R0_NM
+    - W_EX010_R0_TR
+    - W_EX010_R0_WI
+    - W_EX010_U0
+    - W_EX010_V0
+    - W_EX010_W0
+    - W_EX010_Y0
+    - W_EX010_Z0
+    ExtraDomain:
+    - W_EX010_00
+    - W_EX010_NM_00
+    - W_EX010_TR_00
+    - W_EX010_X0
+    - W_EX010_NM_X0
+    - W_EX010_TR_X0
+    - W_EX010_NM_Y0
+    - W_EX010_TR_Y0
+    - W_EX010_NM_Z0
+    - W_EX010_TR_Z0
+    ExtraCodomain:
+    - All-in-One/W_EX010_DetectionSaber
+    - All-in-One/W_EX010_FrontierOfUltima
+    - All-in-One/W_EX010_KingdomKeyD
+    - All-in-One/W_EX010_KingdomKeyD_NM
+    - All-in-One/W_EX010_KingdomKeyD_TR
+    - All-in-One/W_EX010_Pureblood
+    - All-in-One/W_EX010_Pureblood_NM
+    - All-in-One/W_EX010_Pureblood_TR
+    - All-in-One/W_EX010_AlphaWeapon
+    - All-in-One/W_EX010_AlphaWeapon_NM
+    - All-in-One/W_EX010_AlphaWeapon_TR
+    - All-in-One/W_EX010_OmegaWeapon
+    - All-in-One/W_EX010_OmegaWeapon_NM
+    - All-in-One/W_EX010_OmegaWeapon_TR
+    - Roxas/W_EX010_Stick
   Staff:
-  - W_EX020
-  - W_EX020_NM
-  - W_EX020_TR
-  - W_EX020_WI
-  - W_EX020_10
-  - W_EX020_10_NM
-  - W_EX020_10_TR
-  - W_EX020_10_WI
-  - W_EX020_20
-  - W_EX020_20_NM
-  - W_EX020_20_TR
-  - W_EX020_20_WI
-  - W_EX020_30
-  - W_EX020_30_NM
-  - W_EX020_30_TR
-  - W_EX020_30_WI
-  - W_EX020_40
-  - W_EX020_40_NM
-  - W_EX020_40_TR
-  - W_EX020_40_WI
-  - W_EX020_50
-  - W_EX020_50_NM
-  - W_EX020_50_TR
-  - W_EX020_50_WI
-  - W_EX020_60
-  - W_EX020_60_NM
-  - W_EX020_60_TR
-  - W_EX020_60_WI
-  - W_EX020_70
-  - W_EX020_70_NM
-  - W_EX020_70_TR
-  - W_EX020_70_WI
-  - W_EX020_80
-  - W_EX020_80_NM
-  - W_EX020_80_TR
-  - W_EX020_80_WI
-  - W_EX020_90
-  - W_EX020_90_NM
-  - W_EX020_90_TR
-  - W_EX020_90_WI
-  - W_EX020_94
-  - W_EX020_94_NM
-  - W_EX020_94_TR
-  - W_EX020_94_WI
-  - W_EX020_A0
-  - W_EX020_A0_NM
-  - W_EX020_A0_TR
-  - W_EX020_A0_WI
-  - W_EX020_A4
-  - W_EX020_A4_NM
-  - W_EX020_A4_TR
-  - W_EX020_A4_WI
-  - W_EX020_B0
-  - W_EX020_B0_NM
-  - W_EX020_B0_TR
-  - W_EX020_B0_WI
-  - W_EX020_B4
-  - W_EX020_B4_NM
-  - W_EX020_B4_TR
-  - W_EX020_B4_WI
-  - W_EX020_C0
-  - W_EX020_C0_NM
-  - W_EX020_C0_TR
-  - W_EX020_C0_WI
-  - W_EX020_C4
-  - W_EX020_C4_NM
-  - W_EX020_C4_TR
-  - W_EX020_C4_WI
-  - W_EX020_C8
-  - W_EX020_C8_NM
-  - W_EX020_C8_TR
-  - W_EX020_C8_WI
-  - W_EX020_CC
-  - W_EX020_CC_NM
-  - W_EX020_CC_TR
-  - W_EX020_CC_WI
-  - W_EX020_CG
-  - W_EX020_CG_NM
-  - W_EX020_CG_TR
-  - W_EX020_CG_WI
+    Base:
+    - W_EX020
+    - W_EX020_NM
+    - W_EX020_TR
+    - W_EX020_WI
+    - W_EX020_10
+    - W_EX020_10_NM
+    - W_EX020_10_TR
+    - W_EX020_10_WI
+    - W_EX020_20
+    - W_EX020_20_NM
+    - W_EX020_20_TR
+    - W_EX020_20_WI
+    - W_EX020_30
+    - W_EX020_30_NM
+    - W_EX020_30_TR
+    - W_EX020_30_WI
+    - W_EX020_40
+    - W_EX020_40_NM
+    - W_EX020_40_TR
+    - W_EX020_40_WI
+    - W_EX020_50
+    - W_EX020_50_NM
+    - W_EX020_50_TR
+    - W_EX020_50_WI
+    - W_EX020_60
+    - W_EX020_60_NM
+    - W_EX020_60_TR
+    - W_EX020_60_WI
+    - W_EX020_70
+    - W_EX020_70_NM
+    - W_EX020_70_TR
+    - W_EX020_70_WI
+    - W_EX020_80
+    - W_EX020_80_NM
+    - W_EX020_80_TR
+    - W_EX020_80_WI
+    - W_EX020_90
+    - W_EX020_90_NM
+    - W_EX020_90_TR
+    - W_EX020_90_WI
+    - W_EX020_94
+    - W_EX020_94_NM
+    - W_EX020_94_TR
+    - W_EX020_94_WI
+    - W_EX020_A0
+    - W_EX020_A0_NM
+    - W_EX020_A0_TR
+    - W_EX020_A0_WI
+    - W_EX020_A4
+    - W_EX020_A4_NM
+    - W_EX020_A4_TR
+    - W_EX020_A4_WI
+    - W_EX020_B0
+    - W_EX020_B0_NM
+    - W_EX020_B0_TR
+    - W_EX020_B0_WI
+    - W_EX020_B4
+    - W_EX020_B4_NM
+    - W_EX020_B4_TR
+    - W_EX020_B4_WI
+    - W_EX020_C0
+    - W_EX020_C0_NM
+    - W_EX020_C0_TR
+    - W_EX020_C0_WI
+    - W_EX020_C4
+    - W_EX020_C4_NM
+    - W_EX020_C4_TR
+    - W_EX020_C4_WI
+    - W_EX020_C8
+    - W_EX020_C8_NM
+    - W_EX020_C8_TR
+    - W_EX020_C8_WI
+    - W_EX020_CC
+    - W_EX020_CC_NM
+    - W_EX020_CC_TR
+    - W_EX020_CC_WI
+    - W_EX020_CG
+    - W_EX020_CG_NM
+    - W_EX020_CG_TR
+    - W_EX020_CG_WI
+    ExtraDomain: []
+    ExtraCodomain: []
   Shield:
-  - W_EX030
-  - W_EX030_NM
-  - W_EX030_TR
-  - W_EX030_WI
-  - W_EX030_10
-  - W_EX030_10_NM
-  - W_EX030_10_TR
-  - W_EX030_10_WI
-  - W_EX030_20
-  - W_EX030_20_NM
-  - W_EX030_20_TR
-  - W_EX030_20_WI
-  - W_EX030_30
-  - W_EX030_30_NM
-  - W_EX030_30_TR
-  - W_EX030_30_WI
-  - W_EX030_40
-  - W_EX030_40_NM
-  - W_EX030_40_TR
-  - W_EX030_40_WI
-  - W_EX030_50
-  - W_EX030_50_NM
-  - W_EX030_50_TR
-  - W_EX030_50_WI
-  - W_EX030_60
-  - W_EX030_60_NM
-  - W_EX030_60_TR
-  - W_EX030_60_WI
-  - W_EX030_70
-  - W_EX030_70_NM
-  - W_EX030_70_TR
-  - W_EX030_70_WI
-  - W_EX030_80
-  - W_EX030_80_NM
-  - W_EX030_80_TR
-  - W_EX030_80_WI
-  - W_EX030_84
-  - W_EX030_84_NM
-  - W_EX030_84_TR
-  - W_EX030_84_WI
-  - W_EX030_90
-  - W_EX030_90_NM
-  - W_EX030_90_TR
-  - W_EX030_90_WI
-  - W_EX030_A0
-  - W_EX030_A0_NM
-  - W_EX030_A0_TR
-  - W_EX030_A0_WI
-  - W_EX030_A4
-  - W_EX030_A4_NM
-  - W_EX030_A4_TR
-  - W_EX030_A4_WI
-  - W_EX030_B0
-  - W_EX030_B0_NM
-  - W_EX030_B0_TR
-  - W_EX030_B0_WI
-  - W_EX030_B4
-  - W_EX030_B4_NM
-  - W_EX030_B4_TR
-  - W_EX030_B4_WI
-  - W_EX030_C0
-  - W_EX030_C0_NM
-  - W_EX030_C0_TR
-  - W_EX030_C0_WI
-  - W_EX030_C4
-  - W_EX030_C4_NM
-  - W_EX030_C4_TR
-  - W_EX030_C4_WI
-  - W_EX030_C8
-  - W_EX030_C8_NM
-  - W_EX030_C8_TR
-  - W_EX030_C8_WI
-  - W_EX030_CC
-  - W_EX030_CC_NM
-  - W_EX030_CC_TR
-  - W_EX030_CC_WI
-  - W_EX030_CG
-  - W_EX030_CG_NM
-  - W_EX030_CG_TR
-  - W_EX030_CG_WI
+    Base:
+    - W_EX030
+    - W_EX030_NM
+    - W_EX030_TR
+    - W_EX030_WI
+    - W_EX030_10
+    - W_EX030_10_NM
+    - W_EX030_10_TR
+    - W_EX030_10_WI
+    - W_EX030_20
+    - W_EX030_20_NM
+    - W_EX030_20_TR
+    - W_EX030_20_WI
+    - W_EX030_30
+    - W_EX030_30_NM
+    - W_EX030_30_TR
+    - W_EX030_30_WI
+    - W_EX030_40
+    - W_EX030_40_NM
+    - W_EX030_40_TR
+    - W_EX030_40_WI
+    - W_EX030_50
+    - W_EX030_50_NM
+    - W_EX030_50_TR
+    - W_EX030_50_WI
+    - W_EX030_60
+    - W_EX030_60_NM
+    - W_EX030_60_TR
+    - W_EX030_60_WI
+    - W_EX030_70
+    - W_EX030_70_NM
+    - W_EX030_70_TR
+    - W_EX030_70_WI
+    - W_EX030_80
+    - W_EX030_80_NM
+    - W_EX030_80_TR
+    - W_EX030_80_WI
+    - W_EX030_84
+    - W_EX030_84_NM
+    - W_EX030_84_TR
+    - W_EX030_84_WI
+    - W_EX030_90
+    - W_EX030_90_NM
+    - W_EX030_90_TR
+    - W_EX030_90_WI
+    - W_EX030_A0
+    - W_EX030_A0_NM
+    - W_EX030_A0_TR
+    - W_EX030_A0_WI
+    - W_EX030_A4
+    - W_EX030_A4_NM
+    - W_EX030_A4_TR
+    - W_EX030_A4_WI
+    - W_EX030_B0
+    - W_EX030_B0_NM
+    - W_EX030_B0_TR
+    - W_EX030_B0_WI
+    - W_EX030_B4
+    - W_EX030_B4_NM
+    - W_EX030_B4_TR
+    - W_EX030_B4_WI
+    - W_EX030_C0
+    - W_EX030_C0_NM
+    - W_EX030_C0_TR
+    - W_EX030_C0_WI
+    - W_EX030_C4
+    - W_EX030_C4_NM
+    - W_EX030_C4_TR
+    - W_EX030_C4_WI
+    - W_EX030_C8
+    - W_EX030_C8_NM
+    - W_EX030_C8_TR
+    - W_EX030_C8_WI
+    - W_EX030_CC
+    - W_EX030_CC_NM
+    - W_EX030_CC_TR
+    - W_EX030_CC_WI
+    - W_EX030_CG
+    - W_EX030_CG_NM
+    - W_EX030_CG_TR
+    - W_EX030_CG_WI
+    ExtraDomain: []
+    ExtraCodomain: []
 Chest:
   Small:
-  - F_EX030
-  - F_EX030_AL
-  - F_EX030_BB
-  - F_EX030_CA
-  - F_EX030_DC
-  - F_EX030_EH
-  - F_EX030_HE
-  - F_EX030_MU
-  - F_EX030_NM
-  - F_EX030_NM_XMAS
-  - F_EX030_PO
-  - F_EX030_TR
-  - F_EX030_TT
-  - F_EX030_WI
+    Base:
+    - F_EX030
+    - F_EX030_AL
+    - F_EX030_BB
+    - F_EX030_CA
+    - F_EX030_DC
+    - F_EX030_EH
+    - F_EX030_HE
+    - F_EX030_MU
+    - F_EX030_NM
+    - F_EX030_NM_XMAS
+    - F_EX030_PO
+    - F_EX030_TR
+    - F_EX030_TT
+    - F_EX030_WI
+    ExtraDomain:
+    - F_EX030_HB
+    ExtraCodomain:
+    - All-in-One/F_EX030_HB
   Large:
-  - F_EX040
-  - F_EX040_AL
-  - F_EX040_BB
-  - F_EX040_CA
-  - F_EX040_DC
-  - F_EX040_EH
-  - F_EX040_HB
-  - F_EX040_HE
-  - F_EX040_MU
-  - F_EX040_NM
-  - F_EX040_NM_XMAS
-  - F_EX040_PO
-  - F_EX040_TR
-  - F_EX040_TT
-  - F_EX040_WI
+    Base:
+    - F_EX040
+    - F_EX040_AL
+    - F_EX040_BB
+    - F_EX040_CA
+    - F_EX040_DC
+    - F_EX040_EH
+    - F_EX040_HB
+    - F_EX040_HE
+    - F_EX040_MU
+    - F_EX040_NM
+    - F_EX040_NM_XMAS
+    - F_EX040_PO
+    - F_EX040_TR
+    - F_EX040_TT
+    - F_EX040_WI
+    ExtraDomain: []
+    ExtraCodomain: []
 Enemy:
   Genie Jafar:
-  - B_AL020
+    Base:
+    - B_AL020
+    ExtraDomain: []
+    ExtraCodomain:
+    - MiXaV/B_AL020
   Volcanic Lord:
-  - B_AL100_1ST
-  - B_AL100_FIRE
+    Base:
+    - B_AL100_FIRE
+    ExtraDomain:
+    - B_AL100_1ST
+    ExtraCodomain:
+    - MiXaV/B_AL100_FIRE
   Blizzard Lord:
-  - B_AL100_2ND
-  - B_AL100_ICE
+    Base:
+    - B_AL100_ICE
+    ExtraDomain:
+    - B_AL100_2ND
+    ExtraCodomain:
+    - MiXaV/B_AL100_ICE
   Thresholder:
-  - B_BB100
-  - B_BB100_TSURU
+    Base:
+    - B_BB100
+    ExtraDomain: []
+    ExtraCodomain:
+    - Original/B_BB100
+    - MiXaV/B_BB100
   Dark Thorn:
-  - B_BB110
+    Base:
+    - B_BB110
+    ExtraDomain: []
+    ExtraCodomain:
+    - MiXaV/B_BB110
   Shadow Stalker:
-  - B_BB120
+    Base:
+    - B_BB120
+    ExtraDomain: []
+    ExtraCodomain:
+    - MiXaV/B_BB120
   Illuminator:
-  - B_CA000
+    Base:
+    - B_CA000
+    ExtraDomain: []
+    ExtraCodomain:
+    - Original/B_CA000
+    - MiXaV/B_CA000
   Grim Reaper:
-  - B_CA050
+    Base:
+    - B_CA050
+    ExtraDomain: []
+    ExtraCodomain:
+    - Original/B_CA050
+    - MiXaV/B_CA050
   Twilight Thorn:
-  - B_EX100
+    Base:
+    - B_EX100
+    ExtraDomain: []
+    ExtraCodomain:
+    - MiXaV/B_EX100
   Axel:
-  - B_EX110
-  - B_EX110_FRIEND
-  - B_EX110_LV99
-  - B_EX110_RTN
-  - B_EX110_SKIRMISH
+    Base:
+    - B_EX110
+    ExtraDomain:
+    - B_EX110_FRIEND
+    - B_EX110_LV99
+    - B_EX110_RTN
+    - B_EX110_SKIRMISH
+    ExtraCodomain:
+    - MiXaV/B_EX110
   Demyx:
-  - B_EX120
-  - B_EX120_HB
-  - B_EX120_HB_LV99
+    Base:
+    - B_EX120
+    ExtraDomain:
+    - B_EX120_HB
+    - B_EX120_HB_LV99
+    ExtraCodomain:
+    - MiXaV/B_EX120
   Xaldin:
-  - B_EX130
-  - B_EX130_LV99
+    Base:
+    - B_EX130
+    ExtraDomain:
+    - B_EX130_LV99
+    ExtraCodomain:
+    - MiXaV/B_EX130
   Xigbar:
-  - B_EX140
-  - B_EX140_LV99
+    Base:
+    - B_EX140
+    ExtraDomain:
+    - B_EX140_LV99
+    ExtraCodomain:
+    - MiXaV/B_EX140
   Luxord:
-  - B_EX150
-  - B_EX150_LV99
+    Base:
+    - B_EX150
+    ExtraDomain:
+    - B_EX150_LV99
+    ExtraCodomain:
+    - MiXaV/B_EX150
+    - Shananas/B_EX150
   Saix:
-  - B_EX160
-  - B_EX160_LV99
+    Base:
+    - B_EX160
+    ExtraDomain:
+    - B_EX160_LV99
+    ExtraCodomain:
+    - MiXaV/B_EX160
   Xemnas I:
-  - B_EX170
-  - B_EX170_LV99
-  - B_EX170_RTN
+    Base:
+    - B_EX170
+    ExtraDomain:
+    - B_EX170_LV99
+    - B_EX170_RTN
+    ExtraCodomain:
+    - MiXaV/B_EX170
   Xemnas II:
-  - B_EX170_LAST
-  - B_EX170_LAST_LV99
+    Base:
+    - B_EX170_LAST
+    - B_EX170_LAST_LV99
+    ExtraDomain: []
+    ExtraCodomain:
+    - MiXaV/B_EX170_LAST
   Luxord's Cards:
-  - B_EX210
-  - B_EX210_EH
+    Base:
+    - B_EX210
+    ExtraDomain:
+    - B_EX210_EH
+    ExtraCodomain:
+    - Shananas/B_EX210
+  Zexion:
+    Base:
+    - B_EX370
+    ExtraDomain: []
+    ExtraCodomain: []
   Roxas:
-  - B_EX390
+    Base:
+    - B_EX390
+    ExtraDomain: []
+    ExtraCodomain:
+    - MiXaV/B_EX390
+    - Others/Unhooded Roxas
+  Larxene:
+    Base:
+    - B_EX400
+    ExtraDomain: []
+    ExtraCodomain: []
+  Terra:
+    Base:
+    - B_EX420
+    ExtraDomain: []
+    ExtraCodomain: []
   Cerberus:
-  - B_HE020
+    Base:
+    - B_HE020
+    ExtraDomain: []
+    ExtraCodomain:
+    - MiXaV/B_HE020
   Hydra:
-  - B_HE100
+    Base:
+    - B_HE100
+    ExtraDomain: []
+    ExtraCodomain:
+    - MiXaV/B_HE100
   Hydra's Head:
-  - B_HE110
+    Base:
+    - B_HE110
+    ExtraDomain: []
+    ExtraCodomain:
+    - MiXaV/B_HE110
   Scar:
-  - B_LK110
+    Base:
+    - B_LK110
+    ExtraDomain: []
+    ExtraCodomain:
+    - MiXaV/B_LK110
   Groundshaker:
-  - B_LK120
+    Base:
+    - B_LK120
+    ExtraDomain: []
+    ExtraCodomain:
+    - Original/B_LK120
+    - MiXaV/B_LK120
   Storm Rider:
-  - B_MU120
+    Base:
+    - B_MU120
+    ExtraDomain: []
+    ExtraCodomain:
+    - Original/B_MU120
+    - MiXaV/B_MU120
   Prison Keeper:
-  - B_NM100
+    Base:
+    - B_NM100
+    ExtraDomain: []
+    ExtraCodomain:
+    - Original/B_NM100
+    - MiXaV/B_NM100
   Experiment:
-  - B_NM110
-  - B_NM110_HEAD
-  - B_NM110_L_ARM
-  - B_NM110_R_ARM
+    Base:
+    - B_NM110
+    ExtraDomain:
+    - B_NM110_HEAD
+    - B_NM110_L_ARM
+    - B_NM110_R_ARM
+    ExtraCodomain:
+    - MiXaV/B_NM110
   Hostile Program:
-  - B_TR000
+    Base:
+    - B_TR000
+    ExtraDomain: []
+    ExtraCodomain:
+    - MiXaV/B_TR000
   MCP:
-  - B_TR020
+    Base:
+    - B_TR020
+    ExtraDomain: []
+    ExtraCodomain:
+    - MiXaV/B_TR020
   Shadow Chandelier:
-  - F_BB050
+    Base:
+    - F_BB050
+    ExtraDomain: []
+    ExtraCodomain:
+    - MiXaV/F_BB050
   Shadow Pillar:
-  - F_BB060
+    Base:
+    - F_BB060
+    ExtraDomain: []
+    ExtraCodomain:
+    - MiXaV/F_BB060
   Fire Globe:
-  - M_AL020_FIRE
-  - M_AL020_FIRE_RAW
-  - M_AL020_FIRE2
+    Base:
+    - M_AL020_FIRE
+    ExtraDomain:
+    - M_AL020_FIRE_RAW
+    - M_AL020_FIRE2
+    ExtraCodomain:
+    - Original/M_AL020_FIRE
+    - MiXaV/M_AL020_FIRE
   Icy Cube:
-  - M_AL020_ICEE
-  - M_AL020_ICEE_RAW
-  - M_AL020_ICEE2
+    Base:
+    - M_AL020_ICEE
+    ExtraDomain:
+    - M_AL020_ICEE_RAW
+    - M_AL020_ICEE2
+    ExtraCodomain:
+    - Original/M_AL020_ICEE
+    - MiXaV/M_AL020_ICEE
   Gargoyle Warrior:
-  - M_BB010_AX
+    Base:
+    - M_BB010_AX
+    ExtraDomain: []
+    ExtraCodomain:
+    - Original/M_BB010_AX
+    - MiXaV/M_BB010_AX
   Gargoyle Knight:
-  - M_BB010_SWORD
+    Base:
+    - M_BB010_SWORD
+    ExtraDomain: []
+    ExtraCodomain:
+    - Original/M_BB010_SWORD
+    - MiXaV/M_BB010_SWORD
   Soldier:
-  - M_EX010
-  - M_EX010_NM
-  - M_EX010_TR
-  - M_EX010_WI
+    Base:
+    - M_EX010
+    - M_EX010_NM
+    - M_EX010_TR
+    - M_EX010_WI
+    ExtraDomain: []
+    ExtraCodomain:
+    - Original/M_EX010
+    - Original/M_EX010_NM
+    - Original/M_EX010_TR
+    - Original/M_EX010_WI
+    - MiXaV/M_EX010
+    - MiXaV/M_EX010_NM
+    - MiXaV/M_EX010_TR
   Shadow:
-  - M_EX020
-  - M_EX020_RAW
-  - M_EX020_NM
-  - M_EX020_NM_RAW
-  - M_EX020_WI
-  - M_EX020_WI_RAW
+    Base:
+    - M_EX020
+    - M_EX020_NM
+    - M_EX020_WI
+    ExtraDomain:
+    - M_EX020_RAW
+    - M_EX020_NM_RAW
+    - M_EX020_WI_RAW
+    ExtraCodomain:
+    - Original/M_EX020
+    - Original/M_EX020_NM
+    - Original/M_EX020_WI
+    - MiXaV/M_EX020
+    - MiXaV/M_EX020_NM
+    - MiXaV/M_EX020_WI_RAW
+    - Shananas/M_EX020
   Large Body:
-  - M_EX050
-  - M_EX050_WI
+    Base:
+    - M_EX050
+    - M_EX050_WI
+    ExtraDomain: []
+    ExtraCodomain:
+    - Original/M_EX050
+    - Original/M_EX050_WI
+    - MiXaV/M_EX050
   Fat Bandit:
-  - M_EX060
+    Base:
+    - M_EX060
+    ExtraDomain: []
+    ExtraCodomain:
+    - Original/M_EX060
+    - MiXaV/M_EX060
   Silver Rock:
-  - M_EX110
+    Base:
+    - M_EX110
+    ExtraDomain: []
+    ExtraCodomain:
+    - Original/M_EX110
+    - MiXaV/M_EX110
   Emerald Blues:
-  - M_EX120
-  - M_EX120_HB
-  - M_EX120_NM
-  - M_EX120_TR
+    Base:
+    - M_EX120
+    - M_EX120_HB
+    - M_EX120_NM
+    - M_EX120_TR
+    ExtraDomain: []
+    ExtraCodomain:
+    - Original/M_EX120
+    - Original/M_EX120_NM
+    - Original/M_EX120_TR
+    - MiXaV/M_EX120
+    - MiXaV/M_EX120_HB
+    - MiXaV/M_EX120_NM
+    - MiXaV/M_EX120_TR
   Crimson Jazz:
-  - M_EX130
-  - M_EX130_AL
+    Base:
+    - M_EX130
+    ExtraDomain:
+    - M_EX130_AL
+    ExtraCodomain:
+    - Original/M_EX130 #_AL
+    - MiXaV/M_EX130
   Wight Knight:
-  - M_EX200
-  - M_EX200_NM
+    Base:
+    - M_EX200
+    - M_EX200_NM
+    ExtraDomain: []
+    ExtraCodomain:
+    - Original/M_EX200
+    - Original/M_EX200_NM
+    - MiXaV/M_EX200
+    - MiXaV/M_EX200_NM
   Air Pirate:
-  - M_EX210
-  - M_EX210_HB
+    Base:
+    - M_EX210
+    - M_EX210_HB
+    ExtraDomain: []
+    ExtraCodomain:
+    - Original/M_EX210
+    - MiXaV/M_EX210
+    - MiXaV/M_EX210_HB
   Mushroom I:
-  - M_EX350_01
+    Base:
+    - M_EX350_01
+    ExtraDomain: []
+    ExtraCodomain:
+    - MiXaV/M_EX350_01
   Mushroom II:
-  - M_EX350_02
+    Base:
+    - M_EX350_02
+    ExtraDomain: []
+    ExtraCodomain:
+    - MiXaV/M_EX350_02
   Mushroom III:
-  - M_EX350_03
+    Base:
+    - M_EX350_03
+    ExtraDomain: []
+    ExtraCodomain:
+    - MiXaV/M_EX350_03
   Mushroom IV:
-  - M_EX350_04
+    Base:
+    - M_EX350_04
+    ExtraDomain: []
+    ExtraCodomain:
+    - MiXaV/M_EX350_04
   Mushroom V:
-  - M_EX350_05
+    Base:
+    - M_EX350_05
+    ExtraDomain: []
+    ExtraCodomain:
+    - MiXaV/M_EX350_05
   Mushroom VI:
-  - M_EX350_06
+    Base:
+    - M_EX350_06
+    ExtraDomain: []
+    ExtraCodomain:
+    - MiXaV/M_EX350_06
   Mushroom VII:
-  - M_EX350_07
+    Base:
+    - M_EX350_07
+    ExtraDomain: []
+    ExtraCodomain:
+    - MiXaV/M_EX350_07
   Mushroom VIII:
-  - M_EX350_08
+    Base:
+    - M_EX350_08
+    ExtraDomain: []
+    ExtraCodomain:
+    - MiXaV/M_EX350_08
   Mushroom IX:
-  - M_EX350_09
+    Base:
+    - M_EX350_09
+    ExtraDomain: []
+    ExtraCodomain:
+    - MiXaV/M_EX350_09
   Mushroom X:
-  - M_EX350_10
+    Base:
+    - M_EX350_10
+    ExtraDomain: []
+    ExtraCodomain:
+    - MiXaV/M_EX350_10
   Mushroom XI:
-  - M_EX350_11
+    Base:
+    - M_EX350_11
+    ExtraDomain: []
+    ExtraCodomain:
+    - MiXaV/M_EX350_11
   Mushroom XII:
-  - M_EX350_12
+    Base:
+    - M_EX350_12
+    ExtraDomain: []
+    ExtraCodomain:
+    - MiXaV/M_EX350_12
   Mushroom XIII:
-  - M_EX350_13
+    Base:
+    - M_EX350_13
+    ExtraDomain: []
+    ExtraCodomain:
+    - MiXaV/M_EX350_13
   Neoshadow:
-  - M_EX420
-  - M_EX420_NM
+    Base:
+    - M_EX420
+    - M_EX420_NM
+    ExtraDomain: []
+    ExtraCodomain:
+    - Original/M_EX420
+    - Original/M_EX420_NM
+    - MiXaV/M_EX420
+    - MiXaV/M_EX420_NM
   Trick Ghost:
-  - M_EX500
-  - M_EX500_HB
-  - M_EX500_NM
+    Base:
+    - M_EX500
+    - M_EX500_HB
+    - M_EX500_NM
+    ExtraDomain: []
+    ExtraCodomain:
+    - Original/M_EX500
+    - Original/M_EX500_NM
+    - MiXaV/M_EX500
+    - MiXaV/M_EX500_HB
+    - MiXaV/M_EX500_NM
   Rabid Dog:
-  - M_EX510
+    Base:
+    - M_EX510
+    ExtraDomain: []
+    ExtraCodomain:
+    - Original/M_EX510
+    - MiXaV/M_EX510
   Hook Bat:
-  - M_EX520
-  - M_EX520_AL
-  - M_EX520_HB
+    Base:
+    - M_EX520
+    - M_EX520_HB
+    ExtraDomain:
+    - M_EX520_AL
+    ExtraCodomain:
+    - Original/M_EX520
+    - MiXaV/M_EX520
+    - MiXaV/M_EX520_HB
   Bookmaster:
-  - M_EX530
-  - M_EX530_HB
-  - M_EX530_TR
+    Base:
+    - M_EX530
+    - M_EX530_HB
+    - M_EX530_TR
+    ExtraDomain: []
+    ExtraCodomain:
+    - Original/M_EX530
+    - Original/M_EX530_TR
+    - MiXaV/M_EX530
+    - MiXaV/M_EX530_HB
+    - MiXaV/M_EX530_TR
   Aeroplane:
-  - M_EX540
-  - M_EX540_WI
+    Base:
+    - M_EX540
+    - M_EX540_WI
+    ExtraDomain: []
+    ExtraCodomain:
+    - Original/M_EX540
+    - Original/M_EX540_WI
+    - MiXaV/M_EX540
+    - MiXaV/M_EX540_WI
   Minute Bomb:
-  - M_EX550
+    Base:
+    - M_EX550
+    ExtraDomain: []
+    ExtraCodomain:
+    - Original/M_EX550
+    - MiXaV/M_EX550
   Hammer Frame:
-  - M_EX560
-  - M_EX560_HB
-  - M_EX560_WI
+    Base:
+    - M_EX560
+    - M_EX560_HB
+    - M_EX560_WI
+    ExtraDomain: []
+    ExtraCodomain:
+    - Original/M_EX560
+    - MiXaV/M_EX560
+    - MiXaV/M_EX560_HB
   Assault Rider:
-  - M_EX570
+    Base:
+    - M_EX570
+    ExtraDomain: []
+    ExtraCodomain:
+    - Original/M_EX570
+    - MiXaV/M_EX570
   Nightwalker:
-  - M_EX580
+    Base:
+    - M_EX580
+    ExtraDomain: []
+    ExtraCodomain:
+    - Original/M_EX580
+    - MiXaV/M_EX580
   Bulky Vendor:
-  - M_EX590
-  - M_EX590_NM
+    Base:
+    - M_EX590
+    - M_EX590_NM
+    ExtraDomain: []
+    ExtraCodomain:
+    - Original/M_EX590
+    - MiXaV/M_EX590
+    - MiXaV/M_EX590_NM
   Magnum Loader:
-  - M_EX600
-  - M_EX600_LC
-  - M_EX600_LC_ATK
-  - M_EX600_LC_CHG
-  - M_EX600_LC_GRD
+    Base:
+    - M_EX600
+    - M_EX600_LC
+    - M_EX600_LC_ATK
+    - M_EX600_LC_CHG
+    - M_EX600_LC_GRD
+    ExtraDomain: []
+    ExtraCodomain:
+    - MiXaV/M_EX600
   Strafer:
-  - M_EX610
-  - M_EX610_RAW
+    Base:
+    - M_EX610
+    ExtraDomain:
+    - M_EX610_RAW
+    ExtraCodomain:
+    - MiXaV/M_EX610
   Fortuneteller:
-  - M_EX620
-  - M_EX620_AL
+    Base:
+    - M_EX620
+    ExtraDomain:
+    - M_EX620_AL
+    ExtraCodomain:
+    - Original/M_EX620
+    - MiXaV/M_EX620
   Luna Bandit:
-  - M_EX630
+    Base:
+    - M_EX630
+    ExtraDomain: []
+    ExtraCodomain:
+    - Original/M_EX630
+    - MiXaV/M_EX630
   Hot Rod:
-  - M_EX640
-  - M_EX640_HB
-  - M_EX640_WI
+    Base:
+    - M_EX640
+    - M_EX640_HB
+    - M_EX640_WI
+    ExtraDomain: []
+    ExtraCodomain:
+    - Original/M_EX640
+    - Original/M_EX640_WI
+    - MiXaV/M_EX640
+    - MiXaV/M_EX640_HB
+    - MiXaV/M_EX640_WI
   Cannon Gun:
-  - M_EX650
-  - M_EX650_HB
-  - M_EX650_TR
+    Base:
+    - M_EX650
+    - M_EX650_HB
+    - M_EX650_TR
+    ExtraDomain: []
+    ExtraCodomain:
+    - Original/M_EX650
+    - Original/M_EX650_TR
+    - MiXaV/M_EX650
+    - MiXaV/M_EX650_HB
+    - MiXaV/M_EX650_TR
   Rapid Thruster:
-  - M_EX660
-  - M_EX660_RAW
-  - M_EX660_AL
-  - M_EX660_WI
-  - M_EX660_WI_RAW
+    Base:
+    - M_EX660
+    - M_EX660_AL
+    - M_EX660_WI
+    ExtraDomain:
+    - M_EX660_RAW
+    - M_EX660_WI_RAW
+    ExtraCodomain:
+    - MiXaV/M_EX660
+    - MiXaV/M_EX660_WI_RAW
   Living Bone:
-  - M_EX670
+    Base:
+    - M_EX670
+    ExtraDomain: []
+    ExtraCodomain:
+    - Original/M_EX670
+    - MiXaV/M_EX670
   Devastator:
-  - M_EX680
-  - M_EX680_HB
+    Base:
+    - M_EX680
+    - M_EX680_HB
+    ExtraDomain: []
+    ExtraCodomain:
+    - Original/M_EX680
+    - MiXaV/M_EX680
+    - MiXaV/M_EX680_HB
   Lance Soldier:
-  - M_EX690
-  - M_EX690_HB
+    Base:
+    - M_EX690
+    - M_EX690_HB
+    ExtraDomain: []
+    ExtraCodomain:
+    - Original/M_EX690
+    - MiXaV/M_EX690
+    - MiXaV/M_EX690_HB
   Driller Mole:
-  - M_EX700
-  - M_EX700_NM
+    Base:
+    - M_EX700
+    - M_EX700_NM
+    ExtraDomain: []
+    ExtraCodomain:
+    - Original/M_EX700
+    - Original/M_EX700_NM
+    - MiXaV/M_EX700
+    - MiXaV/M_EX700_NM
   Morning Star:
-  - M_EX710
+    Base:
+    - M_EX710
+    ExtraDomain: []
+    ExtraCodomain:
+    - Original/M_EX710
+    - MiXaV/M_EX710
   Shaman:
-  - M_EX720
-  - M_EX720_HB
+    Base:
+    - M_EX720
+    - M_EX720_HB
+    ExtraDomain: []
+    ExtraCodomain:
+    - Original/M_EX720
+    - MiXaV/M_EX720
+    - MiXaV/M_EX720_HB
   Tornado Step:
-  - M_EX730
+    Base:
+    - M_EX730
+    ExtraDomain: []
+    ExtraCodomain:
+    - Original/M_EX730
+    - MiXaV/M_EX730
   Loudmouth:
-  - M_EX740
+    Base:
+    - M_EX740
+    ExtraDomain: []
+    ExtraCodomain:
+    - Original/M_EX740
+    - MiXaV/M_EX740
   Armored Knight:
-  - M_EX760
-  - M_EX760_RAW
-  - M_EX760_NM
-  - M_EX760_NM_RAW
+    Base:
+    - M_EX760
+    - M_EX760_NM
+    ExtraDomain:
+    - M_EX760_RAW
+    - M_EX760_NM_RAW
+    ExtraCodomain:
+    - Original/M_EX760
+    - Original/M_EX760_NM
+    - MiXaV/M_EX760
+    - Shananas/M_EX760_RAW
   Surveillance Robot:
-  - M_EX770
-  - M_EX770_RAW
-  - M_EX770_TR
-  - M_EX770_TR_RAW
+    Base:
+    - M_EX770
+    - M_EX770_TR
+    ExtraDomain:
+    - M_EX770_RAW
+    - M_EX770_TR_RAW
+    ExtraCodomain:
+    - Original/M_EX770
+    - Original/M_EX770_TR
+    - MiXaV/M_EX770
+    - MiXaV/M_EX770_TR
+    - Shananas/M_EX770_RAW
   Aerial Knocker:
-  - M_EX780
-  - M_EX780_HB
+    Base:
+    - M_EX780
+    - M_EX780_HB
+    ExtraDomain: []
+    ExtraCodomain:
+    - Original/M_EX780
+    - MiXaV/M_EX780
+    - MiXaV/M_EX780_HB
   Graveyard:
-  - M_EX790
-  - M_EX790_HALLOWEEN
-  - M_EX790_HALLOWEEN_NM
+    Base:
+    - M_EX790
+    - M_EX790_HALLOWEEN_NM
+    ExtraDomain:
+    - M_EX790_HALLOWEEN
+    ExtraCodomain:
+    - Original/M_EX790
+    - Original/M_EX790_HALLOWEEN_NM
+    - MiXaV/M_EX790
+    - MiXaV/M_EX790_HALLOWEEN_NM
   Toy Soldier:
-  - M_EX790_CHRISTMAS
-  - M_EX790_CHRISTMAS_NM
+    Base:
+    - M_EX790_CHRISTMAS
+    - M_EX790_CHRISTMAS_NM
+    ExtraDomain: []
+    ExtraCodomain:
+    - Original/M_EX790_CHRISTMAS
+    - Original/M_EX790_CHRISTMAS_NM
+    - MiXaV/M_EX790_CHRISTMAS
+    - MiXaV/M_EX790_CHRISTMAS_NM
   Bolt Tower:
-  - M_EX800
-  - M_EX800_RAW
-  - M_EX800_DC
-  - M_EX800_MU
-  - M_EX800_MU_RAW
+    Base:
+    - M_EX800
+    - M_EX800_MU
+    ExtraDomain:
+    - M_EX800_RAW
+    - M_EX800_DC
+    - M_EX800_MU_RAW
+    ExtraCodomain:
+    - MiXaV/M_EX800
+    - MiXaV/M_EX800_MU
   Berserker's Clay:
-  - M_EX850
+    Base:
+    - M_EX850
+    ExtraDomain: []
+    ExtraCodomain:
+    - MiXaV/M_EX850
   Creeper:
-  - M_EX880
+    Base:
+    - M_EX880
+    ExtraDomain: []
+    ExtraCodomain:
+    - MiXaV/M_EX880
+    - Shananas/M_EX880
   Demyx's Clones:
-  - M_EX880_DANCER
-  - M_EX880_DANCER_EH
-  - M_EX880_DANCER_LV99
+    Base:
+    - M_EX880_DANCER
+    ExtraDomain:
+    - M_EX880_DANCER_EH
+    - M_EX880_DANCER_LV99
+    ExtraCodomain:
+    - Shananas/M_EX880_DANCER
   Dragoon:
-  - M_EX890
+    Base:
+    - M_EX890
+    ExtraDomain: []
+    ExtraCodomain:
+    - MiXaV/M_EX890
   Assassin:
-  - M_EX900
+    Base:
+    - M_EX900
+    ExtraDomain: []
+    ExtraCodomain:
+    - MiXaV/M_EX900
   Samurai:
-  - M_EX910
+    Base:
+    - M_EX910
+    ExtraDomain: []
+    ExtraCodomain:
+    - MiXaV/M_EX910
   Sniper:
-  - M_EX920
+    Base:
+    - M_EX920
+    ExtraDomain: []
+    ExtraCodomain:
+    - MiXaV/M_EX920
   Dancer:
-  - M_EX930
+    Base:
+    - M_EX930
+    ExtraDomain: []
+    ExtraCodomain: []
   Berserker:
-  - M_EX940
+    Base:
+    - M_EX940
+    ExtraDomain: []
+    ExtraCodomain:
+    - MiXaV/M_EX940
   Gambler:
-  - M_EX950
+    Base:
+    - M_EX950
+    ExtraDomain: []
+    ExtraCodomain:
+    - MiXaV/M_EX950
   Sorcerer:
-  - M_EX960
+    Base:
+    - M_EX960
+    ExtraDomain: []
+    ExtraCodomain:
+    - MiXaV/M_EX960
   Dusk:
-  - M_EX990
-  - M_EX990_RTN
-  - M_EX990_RTN_FIXCOLOR
+    Base:
+    - M_EX990
+    ExtraDomain:
+    - M_EX990_RTN
+    - M_EX990_RTN_FIXCOLOR
+    ExtraCodomain:
+    - MiXaV/M_EX990
+    - Shananas/M_EX990
+  Marluxia:
+    Base:
+    - N_CM000
+    ExtraDomain:
+    - N_CM000_BTL
+    ExtraCodomain: []
+  Lexaeus:
+    Base:
+    - N_CM020
+    ExtraDomain:
+    - N_CM020_BTL
+    ExtraCodomain: []
+  Vexen:
+    Base:
+    - N_CM040
+    ExtraDomain:
+    - N_CM040_BTL
+    ExtraCodomain: []
   Pete:
-  - N_EX760
-  - N_EX760_BTL
-  - N_EX760_BTL_CLSM
-  - N_EX760_BTL_HERCULES
-  - N_EX760_BTL_MEGARA
-  - N_EX760_BTL_WILLY
-  - N_EX760_RTN
+    Base:
+    - N_EX760
+    ExtraDomain:
+    - N_EX760_BTL
+    - N_EX760_BTL_CLSM
+    - N_EX760_BTL_HERCULES
+    - N_EX760_BTL_MEGARA
+    - N_EX760_BTL_WILLY
+    - N_EX760_RTN
+    ExtraCodomain:
+    - MiXaV/N_EX760
   Sark:
-  - N_TR010_BTL
+    Base:
+    - N_TR010_BTL
+    ExtraDomain: []
+    ExtraCodomain:
+    - MiXaV/N_TR010_BTL
   Giant Sark:
-  - N_TR010_BTL_L
+    Base:
+    - N_TR010_BTL_L
+    ExtraDomain: []
+    ExtraCodomain:
+    - MiXaV/N_TR010_BTL_L
