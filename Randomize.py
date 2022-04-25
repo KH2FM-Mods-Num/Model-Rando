@@ -35,7 +35,7 @@ def writemodel(old,new):
         f.write('  method: binarc\n')
         f.write('  source:\n')
         if os.path.isfile(old+'.model'):
-            subfile = old[:4].lower()
+            subfile = old[4:8].lower()
             if '_PLAYER' in old:
                 subfile = 'p_ex'
             f.write('  - name: '+subfile+'\n')

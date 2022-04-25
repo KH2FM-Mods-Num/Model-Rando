@@ -109,6 +109,13 @@ Party:
     - Roxas/Coat/P_EX100_XM_KH1F
     - Roxas/Coat/P_EX100_XM_TRIF
     - Roxas/Coat/P_EX100_XM_ULTF
+    - Dee-Ayy/P_EX100
+    - Dee-Ayy/P_EX100_BTLF
+    - Dee-Ayy/P_EX100_MAGF
+    - Dee-Ayy/P_EX100_KH1F
+    - Dee-Ayy/P_EX100_TRIF
+    - Dee-Ayy/P_EX100_ULTF
+    - Dee-Ayy/P_EX100_HTLF
   Lion Sora:
     Base:
     - P_LK100
@@ -116,6 +123,7 @@ Party:
     ExtraCodomain:
     - Shananas/P_LK100
     - Roxas/P_LK100
+    - Dee-Ayy/P_LK100
   Mermaid Sora:
     Base:
     - P_LM100
@@ -580,6 +588,7 @@ Enemy:
     - B_EX110_SKIRMISH
     ExtraCodomain:
     - MiXaV/B_EX110
+    - Dee-Ayy/B_EX110
   Demyx:
     Base:
     - B_EX120
@@ -588,6 +597,7 @@ Enemy:
     - B_EX120_HB_LV99
     ExtraCodomain:
     - MiXaV/B_EX120
+    - Dee-Ayy/B_EX120
   Xaldin:
     Base:
     - B_EX130
@@ -595,6 +605,7 @@ Enemy:
     - B_EX130_LV99
     ExtraCodomain:
     - MiXaV/B_EX130
+    - Dee-Ayy/B_EX130
   Xigbar:
     Base:
     - B_EX140
@@ -602,6 +613,7 @@ Enemy:
     - B_EX140_LV99
     ExtraCodomain:
     - MiXaV/B_EX140
+    - Dee-Ayy/B_EX140
   Luxord:
     Base:
     - B_EX150
@@ -610,6 +622,7 @@ Enemy:
     ExtraCodomain:
     - MiXaV/B_EX150
     - Shananas/B_EX150
+    - Dee-Ayy/B_EX150
   Saix:
     Base:
     - B_EX160
@@ -617,6 +630,7 @@ Enemy:
     - B_EX160_LV99
     ExtraCodomain:
     - MiXaV/B_EX160
+    - Dee-Ayy/B_EX160
   Xemnas I:
     Base:
     - B_EX170
@@ -625,6 +639,7 @@ Enemy:
     - B_EX170_RTN
     ExtraCodomain:
     - MiXaV/B_EX170
+    - Dee-Ayy/B_EX170
   Xemnas II:
     Base:
     - B_EX170_LAST
@@ -632,6 +647,7 @@ Enemy:
     - B_EX170_LAST_LV99
     ExtraCodomain:
     - MiXaV/B_EX170_LAST
+    - Dee-Ayy/B_EX170_LAST
   Luxord's Cards:
     Base:
     - B_EX210
@@ -643,7 +659,8 @@ Enemy:
     Base:
     - B_EX370
     ExtraDomain: []
-    ExtraCodomain: []
+    ExtraCodomain:
+    - Dee-Ayy/B_EX370
   Roxas:
     Base:
     - B_EX390
@@ -655,12 +672,14 @@ Enemy:
     Base:
     - B_EX400
     ExtraDomain: []
-    ExtraCodomain: []
+    ExtraCodomain:
+    - Dee-Ayy/B_EX400
   Terra:
     Base:
     - B_EX420
     ExtraDomain: []
-    ExtraCodomain: []
+    ExtraCodomain:
+    - Dee-Ayy/B_EX420
   Cerberus:
     Base:
     - B_HE020
@@ -1300,19 +1319,22 @@ Enemy:
     - N_CM000
     ExtraDomain:
     - N_CM000_BTL
-    ExtraCodomain: []
+    ExtraCodomain:
+    - Dee-Ayy/N_CM000
   Lexaeus:
     Base:
     - N_CM020
     ExtraDomain:
     - N_CM020_BTL
-    ExtraCodomain: []
+    ExtraCodomain:
+    - Dee-Ayy/N_CM020
   Vexen:
     Base:
     - N_CM040
     ExtraDomain:
     - N_CM040_BTL
-    ExtraCodomain: []
+    ExtraCodomain:
+    - Dee-Ayy/N_CM040
   Pete:
     Base:
     - N_EX760
