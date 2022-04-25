@@ -38,7 +38,11 @@ Party:
     - P_EX100_XM_HTLF
     ExtraDomain:
     - P_EX100_AL_CARPET
+    - P_EX100_HTLF_BTL
+    - P_EX100_LAST
+    - P_EX100_SIDECAR
     - P_EX100_TR_LIGHTCYCLE
+    - P_EX100_WM
     - PO06_PLAYER
     - PO07_PLAYER
     - PO08_PLAYER
@@ -119,7 +123,8 @@ Party:
   Lion Sora:
     Base:
     - P_LK100
-    ExtraDomain: []
+    ExtraDomain:
+    - P_LK000_RTN
     ExtraCodomain:
     - Shananas/P_LK100
     - Roxas/P_LK100
@@ -151,6 +156,9 @@ Party:
     ExtraDomain:
     - P_EX020_DC
     - P_EX020_CO
+    - P_EX020_NOBG_RTN
+    - P_EX020_RTN
+    - P_EX020_WM
     ExtraCodomain:
     - All-in-One/P_EX020_DC
     - All-in-One/P_EX020_CO
@@ -163,14 +171,26 @@ Party:
     ExtraDomain:
     - P_EX030_DC
     - P_EX030_CO
+    - P_EX030_NOBG_RTN
+    - P_EX030_RTN
+    - P_EX030_WM
     ExtraCodomain:
     - All-in-One/P_EX030_DC
     - All-in-One/P_EX030_CO
+  Mickey:
+    Base:
+    - P_EX200
+    - P_EX220
+    ExtraDomain:
+    - P_EX220_RTN
+    ExtraCodomain: []
   Jack Skellington:
     Base:
     - P_NM000
     - P_NM000_SANTA
-    ExtraDomain: []
+    ExtraDomain:
+    - P_NM000_RTN
+    - P_NM000_SANTA_RTN
     ExtraCodomain: []
   Roxas:
     Base:
@@ -179,6 +199,14 @@ Party:
     - P_EX110_BTLF
     ExtraCodomain:
     - Roxas/P_EX110
+  Sora (KH I):
+    Base:
+    - P_EX120
+    - P_EX120_NPC_BLUE
+    - P_EX120_NPC_GREEN
+    - P_EX120_NPC_RED
+    ExtraDomain: []
+    ExtraCodomain: []
 Weapon:
   Keyblade:
     Base:
@@ -284,6 +312,8 @@ Weapon:
     - W_EX010_Y0
     - W_EX010_Z0
     ExtraDomain:
+    - W_EX010_ROXAS_LIGHT
+    - W_EX010_ROXAS_DARK
     - W_EX010_00
     - W_EX010_NM_00
     - W_EX010_TR_00
@@ -711,6 +741,13 @@ Enemy:
     ExtraCodomain:
     - Original/B_LK120
     - MiXaV/B_LK120
+  Shan Yu:
+    Base:
+    - B_MU100
+    - B_MU100_HOOD
+    ExtraDomain:
+    - B_MU100_RTN
+    ExtraCodomain: []
   Storm Rider:
     Base:
     - B_MU120
@@ -872,84 +909,27 @@ Enemy:
     - Original/M_EX210
     - MiXaV/M_EX210
     - MiXaV/M_EX210_HB
-  Mushroom I:
-    Base:
-    - M_EX350_01
-    ExtraDomain: []
-    ExtraCodomain:
-    - MiXaV/M_EX350_01
-  Mushroom II:
-    Base:
-    - M_EX350_02
-    ExtraDomain: []
-    ExtraCodomain:
-    - MiXaV/M_EX350_02
-  Mushroom III:
-    Base:
-    - M_EX350_03
-    ExtraDomain: []
-    ExtraCodomain:
-    - MiXaV/M_EX350_03
-  Mushroom IV:
-    Base:
-    - M_EX350_04
-    ExtraDomain: []
-    ExtraCodomain:
-    - MiXaV/M_EX350_04
-  Mushroom V:
-    Base:
-    - M_EX350_05
-    ExtraDomain: []
-    ExtraCodomain:
-    - MiXaV/M_EX350_05
-  Mushroom VI:
-    Base:
-    - M_EX350_06
-    ExtraDomain: []
-    ExtraCodomain:
-    - MiXaV/M_EX350_06
-  Mushroom VII:
-    Base:
-    - M_EX350_07
-    ExtraDomain: []
-    ExtraCodomain:
-    - MiXaV/M_EX350_07
-  Mushroom VIII:
-    Base:
-    - M_EX350_08
-    ExtraDomain: []
-    ExtraCodomain:
-    - MiXaV/M_EX350_08
-  Mushroom IX:
-    Base:
-    - M_EX350_09
-    ExtraDomain: []
-    ExtraCodomain:
-    - MiXaV/M_EX350_09
-  Mushroom X:
-    Base:
-    - M_EX350_10
-    ExtraDomain: []
-    ExtraCodomain:
-    - MiXaV/M_EX350_10
-  Mushroom XI:
-    Base:
-    - M_EX350_11
-    ExtraDomain: []
-    ExtraCodomain:
-    - MiXaV/M_EX350_11
-  Mushroom XII:
-    Base:
-    - M_EX350_12
-    ExtraDomain: []
-    ExtraCodomain:
-    - MiXaV/M_EX350_12
   Mushroom XIII:
     Base:
+    - M_EX350_01
+    - M_EX350_02
+    - M_EX350_11
+    ExtraDomain:
+    - M_EX350_03
+    - M_EX350_04
+    - M_EX350_05
+    - M_EX350_06
+    - M_EX350_06_SU
+    - M_EX350_07
+    - M_EX350_08
+    - M_EX350_09
+    - M_EX350_10
+    - M_EX350_12
     - M_EX350_13
-    ExtraDomain: []
     ExtraCodomain:
-    - MiXaV/M_EX350_13
+    - MiXaV/M_EX350_01
+    - MiXaV/M_EX350_02
+    - MiXaV/M_EX350_11
   Neoshadow:
     Base:
     - M_EX420
