@@ -177,13 +177,6 @@ Party:
     ExtraCodomain:
     - All-in-One/P_EX030_DC
     - All-in-One/P_EX030_CO
-  Mickey:
-    Base:
-    - P_EX200
-    - P_EX220
-    ExtraDomain:
-    - P_EX220_RTN
-    ExtraCodomain: []
   Jack Skellington:
     Base:
     - P_NM000
@@ -508,8 +501,8 @@ Weapon:
     - W_EX030_CG_WI
     ExtraDomain: []
     ExtraCodomain: []
-Chest:
-  Small:
+Object:
+  Small Chest:
     Base:
     - F_EX030
     - F_EX030_AL
@@ -529,7 +522,7 @@ Chest:
     - F_EX030_TT
     ExtraCodomain:
     - All-in-One/F_EX030_HB
-  Large:
+  Large Chest:
     Base:
     - F_EX040
     - F_EX040_AL
@@ -547,6 +540,18 @@ Chest:
     - F_EX040_WI
     ExtraDomain:
     - F_EX040_TT
+    ExtraCodomain: []
+  Skateboard:
+    Base:
+    - F_TT010
+    - F_TT010_SORA
+    - F_TT010_AL
+    - F_TT010_CA
+    - F_TT010_HE
+    - F_TT010_NM
+    - F_TT010_TR
+    - F_TT010_WI
+    ExtraDomain: []
     ExtraCodomain: []
 Enemy:
   Genie Jafar:
