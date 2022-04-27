@@ -8,33 +8,33 @@ def writemodel(old,new):
     old = 'obj/' + old
     new = 'obj/' + new
     #A.FM
-    if os.path.isfile(old+'.fm'):
+    if os.path.isfile(new+'.a.fm'):
         f.write('- name: '+old+'.a.fm\n')
         f.write('  method: copy\n')
         f.write('  source:\n')
         f.write('  - name: '+new+'.a.fm\n')
-    elif os.path.isfile(old+'.imd') or os.path.isfile(old+'.sqd'):
+    elif os.path.isfile(new+'.imd') or os.path.isfile(new+'.sqd'):
         f.write('- name: '+old+'.a.fm\n')
         f.write('  method: binarc\n')
         f.write('  source:\n')
-        if os.path.isfile(old+'.imd'):
+        if os.path.isfile(new+'.imd'):
             f.write('  - name: face\n')
             f.write('    type: imgd\n')
             f.write('    method: copy\n')
             f.write('    source:\n')
             f.write('    - name: '+new+'.imd\n')
-        if os.path.isfile(old+'.sqd'):
+        if os.path.isfile(new+'.sqd'):
             f.write('  - name: face\n')
             f.write('    type: seqd\n')
             f.write('    method: copy\n')
             f.write('    source:\n')
             f.write('    - name: '+new+'.sqd\n')
     #MDLX
-    if os.path.isfile(old+'.model') or os.path.isfile(old+'.tim'):
+    if os.path.isfile(new+'.model') or os.path.isfile(new+'.tim'):
         f.write('- name: '+old+'.mdlx\n')
         f.write('  method: binarc\n')
         f.write('  source:\n')
-        if os.path.isfile(old+'.model'):
+        if os.path.isfile(new+'.model'):
             subfile = old[4:8].lower()
             if '_PLAYER' in old:
                 subfile = 'p_ex'
@@ -43,7 +43,7 @@ def writemodel(old,new):
             f.write('    method: copy\n')
             f.write('    source:\n')
             f.write('    - name: '+new+'.model\n')
-        if os.path.isfile(old+'.tim'):
+        if os.path.isfile(new+'.tim'):
             f.write('  - name: tim_\n')
             f.write('    type: modeltexture\n')
             f.write('    method: copy\n')
