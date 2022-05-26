@@ -1271,7 +1271,8 @@ Enemy:
     Base:
     - M_EX930
     ExtraDomain: []
-    ExtraCodomain: []
+    ExtraCodomain:
+    - MiXaV/M_EX930
   Berserker:
     Base:
     - M_EX940
