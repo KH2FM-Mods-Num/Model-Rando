@@ -123,8 +123,7 @@ Party:
   Lion Sora:
     Base:
     - P_LK100
-    ExtraDomain:
-    - P_LK000_RTN
+    ExtraDomain: []
     ExtraCodomain:
     - Shananas/P_LK100
     - Roxas/P_LK100
