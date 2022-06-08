@@ -63,8 +63,8 @@ for objtype in objs:
     for models in obj.values():
         oldmodels = models['Base'] + models['ExtraDomain']
         newmodels = models['Base'] + models['ExtraCodomain']
-        while len(oldmodels) > len(newmodels):
-            newmodels *= 2
+        while len(oldmodels) >= len(newmodels):
+            newmodels += (models['Base'] + models['ExtraCodomain'])
         random.shuffle(newmodels)
         for i in range(len(oldmodels)):
             if oldmodels[i] == newmodels[i]:
