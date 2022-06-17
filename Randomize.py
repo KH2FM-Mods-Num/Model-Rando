@@ -1,3 +1,6 @@
+OnPC = False
+PCBlacklist = {'Roxas/Coat/P_EX100_XM_BTLF'}
+
 import sys
 import os
 import yaml
@@ -8,27 +11,28 @@ def writemodel(old,new):
     old = 'obj/' + old
     new = 'obj/' + new
     #A.FM
-    if os.path.isfile(new+'.a.fm'):
-        f.write('- name: '+old+'.a.fm\n')
-        f.write('  method: copy\n')
-        f.write('  source:\n')
-        f.write('  - name: '+new+'.a.fm\n')
-    elif os.path.isfile(new+'.imd') or os.path.isfile(new+'.sqd'):
-        f.write('- name: '+old+'.a.fm\n')
-        f.write('  method: binarc\n')
-        f.write('  source:\n')
-        if os.path.isfile(new+'.imd'):
-            f.write('  - name: face\n')
-            f.write('    type: imgd\n')
-            f.write('    method: copy\n')
-            f.write('    source:\n')
-            f.write('    - name: '+new+'.imd\n')
-        if os.path.isfile(new+'.sqd'):
-            f.write('  - name: face\n')
-            f.write('    type: seqd\n')
-            f.write('    method: copy\n')
-            f.write('    source:\n')
-            f.write('    - name: '+new+'.sqd\n')
+    if not OnPC: #Don't edit on PC due to a.us pax being remastered-reliant
+        if os.path.isfile(new+'.a.fm'):
+            f.write('- name: '+old+'.a.fm\n')
+            f.write('  method: copy\n')
+            f.write('  source:\n')
+            f.write('  - name: '+new+'.a.fm\n')
+        elif os.path.isfile(new+'.imd') or os.path.isfile(new+'.sqd'):
+            f.write('- name: '+old+'.a.fm\n')
+            f.write('  method: binarc\n')
+            f.write('  source:\n')
+            if os.path.isfile(new+'.imd'):
+                f.write('  - name: face\n')
+                f.write('    type: imgd\n')
+                f.write('    method: copy\n')
+                f.write('    source:\n')
+                f.write('    - name: '+new+'.imd\n')
+            if os.path.isfile(new+'.sqd'):
+                f.write('  - name: face\n')
+                f.write('    type: seqd\n')
+                f.write('    method: copy\n')
+                f.write('    source:\n')
+                f.write('    - name: '+new+'.sqd\n')
     #MDLX
     if os.path.isfile(new+'.model') or os.path.isfile(new+'.tim'):
         f.write('- name: '+old+'.mdlx\n')
@@ -61,10 +65,19 @@ f.write('assets:\n')
 for objtype in objs:
     obj = objs[objtype]
     for models in obj.values():
-        oldmodels = models['Base'] + models['ExtraDomain']
-        newmodels = models['Base'] + models['ExtraCodomain']
+        Base          = models['Base']
+        ExtraDomain   = models['ExtraDomain']
+        ExtraCodomain = models['ExtraCodomain']
+        #Remove blacklisted models
+        if OnPC:
+            Base          = [x for x in Base          if not x in PCBlacklist]
+            ExtraDomain   = [x for x in ExtraDomain   if not x in PCBlacklist]
+            ExtraCodomain = [x for x in ExtraCodomain if not x in PCBlacklist]
+        #Get eligible elements
+        oldmodels = Base + ExtraDomain
+        newmodels = Base + ExtraCodomain
         while len(oldmodels) >= len(newmodels):
-            newmodels += (models['Base'] + models['ExtraCodomain'])
+            newmodels += (Base + ExtraCodomain)
         random.shuffle(newmodels)
         for i in range(len(oldmodels)):
             if oldmodels[i] == newmodels[i]:
