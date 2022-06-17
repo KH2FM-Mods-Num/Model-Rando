@@ -154,13 +154,13 @@ Party:
     - P_EX020_XM
     ExtraDomain:
     - P_EX020_DC
-    - P_EX020_CO
+    - P_EX020_CM
     - P_EX020_NOBG_RTN
     - P_EX020_RTN
     - P_EX020_WM
     ExtraCodomain:
     - All-in-One/P_EX020_DC
-    - All-in-One/P_EX020_CO
+    - All-in-One/P_EX020_CM
   Goofy:
     Base:
     - P_EX030
@@ -169,13 +169,13 @@ Party:
     - P_EX030_XM
     ExtraDomain:
     - P_EX030_DC
-    - P_EX030_CO
+    - P_EX030_CM
     - P_EX030_NOBG_RTN
     - P_EX030_RTN
     - P_EX030_WM
     ExtraCodomain:
     - All-in-One/P_EX030_DC
-    - All-in-One/P_EX030_CO
+    - All-in-One/P_EX030_CM
   Jack Skellington:
     Base:
     - P_NM000
