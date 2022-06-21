@@ -1,5 +1,15 @@
-OnPC = False
-PCBlacklist = {'Roxas/Coat/P_EX100_XM_BTLF'}
+OnPC = True
+PCBlacklist = {'Roxas/Chain/P_EX100_NM',
+               'Roxas/Chain/P_EX100_NM_BTLF',
+               'Roxas/Chain/P_EX100_NM_ULTF',
+               'Roxas/Coat/P_EX100_NM_KH1F',}
+PCRemaster = ('P_EX020_CM','P_EX020_DC','P_EX030_CM','P_EX030_DC',
+              'W_EX010'   ,'W_EX010_NM'   ,'W_EX010_TR'   ,
+              'W_EX010_00','W_EX010_NM_00','W_EX010_TR_00',
+              'W_EX010_X0','W_EX010_NM_X0','W_EX010_TR_X0',
+              'W_EX010_Y0','W_EX010_NM_Y0','W_EX010_TR_Y0',
+              'W_EX010_Z0','W_EX010_NM_Z0','W_EX010_TR_Z0',)
+#Useless, figure out what to do later
 
 import sys
 import os
@@ -53,6 +63,13 @@ def writemodel(old,new):
             f.write('    method: copy\n')
             f.write('    source:\n')
             f.write('    - name: '+new+'.tim\n')
+    '''This entire code block doesn't work without bfmm update
+    #Write useless file to prevent using HD textures (mess up the file count)
+    if OnPC and old[4:] in PCRemaster:
+        f.write('- name: remastered/'+old+'.mdlx/-69.dds\n')
+        f.write('  method: copy\n')
+        f.write('  source:\n')
+        f.write('  - name: randomize.py\n')'''
 
 #Get KH2 model filenames
 currentDir = sys.argv[0].replace((sys.argv[0].split('\\')[-1]),'')
