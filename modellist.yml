@@ -599,6 +599,13 @@ Enemy:
     ExtraCodomain:
     - Original/B_CA000
     - MiXaV/B_CA000
+  Pirate C:
+    Base: []
+    ExtraDomain:
+    - B_CA040
+    ExtraCodomain:
+    - Others/Pirate Gun
+    - Others/Pirate Crossbow
   Grim Reaper:
     Base:
     - B_CA050
