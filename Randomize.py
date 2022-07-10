@@ -4,7 +4,8 @@ PCBlacklist = {'Roxas/Chain/P_EX100_NM',
                'Roxas/Chain/P_EX100_NM_MAGF',
                'Roxas/Chain/P_EX100_NM_ULTF',
                'Roxas/Coat/P_EX100_NM_KH1F',
-               'Shananas/B_EX150',}
+               'Shananas/B_EX150',
+               'Dee-Ayy/B_EX420',}
 PCRemaster = ('P_EX020_CM','P_EX020_DC','P_EX030_CM','P_EX030_DC',
               'W_EX010'   ,'W_EX010_NM'   ,'W_EX010_TR'   ,
               'W_EX010_00','W_EX010_NM_00','W_EX010_TR_00',
