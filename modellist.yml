@@ -630,6 +630,7 @@ Enemy:
     ExtraCodomain:
     - MiXaV/B_EX110
     - Dee-Ayy/B_EX110
+    - Hooded/B_EX110
   Demyx:
     Base:
     - B_EX120
@@ -639,6 +640,7 @@ Enemy:
     ExtraCodomain:
     - MiXaV/B_EX120
     - Dee-Ayy/B_EX120
+    - Hooded/B_EX120
   Xaldin:
     Base:
     - B_EX130
@@ -647,6 +649,7 @@ Enemy:
     ExtraCodomain:
     - MiXaV/B_EX130
     - Dee-Ayy/B_EX130
+    - Hooded/B_EX130
   Xigbar:
     Base:
     - B_EX140
@@ -655,6 +658,7 @@ Enemy:
     ExtraCodomain:
     - MiXaV/B_EX140
     - Dee-Ayy/B_EX140
+    - Hooded/B_EX140
   Luxord:
     Base:
     - B_EX150
@@ -664,6 +668,7 @@ Enemy:
     - MiXaV/B_EX150
     - Shananas/B_EX150
     - Dee-Ayy/B_EX150
+    - Hooded/B_EX150
   Saix:
     Base:
     - B_EX160
@@ -672,6 +677,7 @@ Enemy:
     ExtraCodomain:
     - MiXaV/B_EX160
     - Dee-Ayy/B_EX160
+    - Hooded/B_EX160
   Xemnas I:
     Base:
     - B_EX170
@@ -681,6 +687,7 @@ Enemy:
     ExtraCodomain:
     - MiXaV/B_EX170
     - Dee-Ayy/B_EX170
+    - Hooded/B_EX170
   Xemnas II:
     Base:
     - B_EX170_LAST
@@ -689,6 +696,7 @@ Enemy:
     ExtraCodomain:
     - MiXaV/B_EX170_LAST
     - Dee-Ayy/B_EX170_LAST
+    - Hooded/B_EX170_LAST
   Luxord's Cards:
     Base:
     - B_EX210
@@ -702,6 +710,7 @@ Enemy:
     ExtraDomain: []
     ExtraCodomain:
     - Dee-Ayy/B_EX370
+    - Hooded/B_EX370
   Roxas:
     Base:
     - B_EX390
@@ -709,12 +718,14 @@ Enemy:
     ExtraCodomain:
     - MiXaV/B_EX390
     - Others/Unhooded Roxas
+    - Hooded/B_EX390
   Larxene:
     Base:
     - B_EX400
     ExtraDomain: []
     ExtraCodomain:
     - Dee-Ayy/B_EX400
+    - Hooded/B_EX400
   Terra:
     Base:
     - B_EX420
@@ -1313,6 +1324,7 @@ Enemy:
     - N_CM000_BTL
     ExtraCodomain:
     - Dee-Ayy/N_CM000
+    - Hooded/N_CM000
   Lexaeus:
     Base:
     - N_CM020
@@ -1320,6 +1332,7 @@ Enemy:
     - N_CM020_BTL
     ExtraCodomain:
     - Dee-Ayy/N_CM020
+    - Hooded/N_CM020
   Vexen:
     Base:
     - N_CM040
@@ -1327,6 +1340,7 @@ Enemy:
     - N_CM040_BTL
     ExtraCodomain:
     - Dee-Ayy/N_CM040
+    - Hooded/N_CM040
   Pete:
     Base:
     - N_EX760

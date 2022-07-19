@@ -80,7 +80,7 @@ objs = yaml.safe_load(open(currentDir+'modellist.yml'))
 
 #Write the mod.yml
 f = open(currentDir+'mod.yml','w',encoding='utf-8')
-f.write('description: Credits for PandaPyre, Shananas, GeminiHero, and DA for providing their respective textures.\n')
+f.write('description: Credits for PandaPyre, Shananas, GeminiHero, Napstio, DA, and Oathseeker for providing their respective textures.\n')
 f.write('assets:\n')
 for objtype in objs:
     obj = objs[objtype]
