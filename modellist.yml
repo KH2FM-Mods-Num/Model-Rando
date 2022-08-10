@@ -678,24 +678,20 @@ Enemy:
     - MiXaV/B_EX160
     - Dee-Ayy/B_EX160
     - Hooded/B_EX160
-  Xemnas I:
+  Xemnas:
     Base:
     - B_EX170
+    - B_EX170_LAST
     ExtraDomain:
     - B_EX170_LV99
     - B_EX170_RTN
-    ExtraCodomain:
-    - MiXaV/B_EX170
-    - Dee-Ayy/B_EX170
-    - Hooded/B_EX170
-  Xemnas II:
-    Base:
-    - B_EX170_LAST
-    ExtraDomain:
     - B_EX170_LAST_LV99
     ExtraCodomain:
+    - MiXaV/B_EX170
     - MiXaV/B_EX170_LAST
+    - Dee-Ayy/B_EX170
     - Dee-Ayy/B_EX170_LAST
+    - Hooded/B_EX170
     - Hooded/B_EX170_LAST
   Luxord's Cards:
     Base:
