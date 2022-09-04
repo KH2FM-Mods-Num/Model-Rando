@@ -333,12 +333,20 @@ Weapon:
     - All-in-One/W_EX010_OmegaWeapon_TR
     - Roxas/W_EX010_Stick
     - Zurph/W_EX010_30
+    - Zurph/W_EX010_30_NM
+    - Zurph/W_EX010_30_TR
     - Zurph/W_EX010_40
     - Zurph/W_EX010_40_NM
     - Zurph/W_EX010_40_TR
     - Zurph/W_EX010_U0
+    - Zurph/W_EX010_U0_NM
+    - Zurph/W_EX010_U0_TR
     - Zurph/W_EX010_V0
+    - Zurph/W_EX010_V0_NM
+    - Zurph/W_EX010_V0_TR
     - Zurph/W_EX010_W0
+    - Zurph/W_EX010_W0_NM
+    - Zurph/W_EX010_W0_TR
   Staff:
     Base:
     - W_EX020
