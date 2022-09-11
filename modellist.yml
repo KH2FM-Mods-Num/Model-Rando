@@ -336,9 +336,6 @@ Weapon:
     - Zurph/W_EX010_30
     - Zurph/W_EX010_30_NM
     - Zurph/W_EX010_30_TR
-    - Zurph/W_EX010_40
-    - Zurph/W_EX010_40_NM
-    - Zurph/W_EX010_40_TR
     - Zurph/W_EX010_U0
     - Zurph/W_EX010_U0_NM
     - Zurph/W_EX010_U0_TR
@@ -348,6 +345,48 @@ Weapon:
     - Zurph/W_EX010_W0
     - Zurph/W_EX010_W0_NM
     - Zurph/W_EX010_W0_TR
+    - Zurph/KH1 Keyblades/W_EX010_40
+    - Zurph/KH1 Keyblades/W_EX010_40_NM
+    - Zurph/KH1 Keyblades/W_EX010_40_TR
+    - Zurph/KH1 Keyblades/W_EX010_50
+    - Zurph/KH1 Keyblades/W_EX010_50_NM
+    - Zurph/KH1 Keyblades/W_EX010_50_TR
+    - Zurph/KH1 Keyblades/W_EX010_70
+    - Zurph/KH1 Keyblades/W_EX010_70_NM
+    - Zurph/KH1 Keyblades/W_EX010_70_TR
+    - Zurph/KH1 Keyblades/W_EX010_80
+    - Zurph/KH1 Keyblades/W_EX010_80_NM
+    - Zurph/KH1 Keyblades/W_EX010_80_TR
+    - Zurph/KH1 Keyblades/W_EX010_90
+    - Zurph/KH1 Keyblades/W_EX010_90_NM
+    - Zurph/KH1 Keyblades/W_EX010_90_TR
+    - Zurph/KH1 Keyblades/W_EX010_A0
+    - Zurph/KH1 Keyblades/W_EX010_A0_NM
+    - Zurph/KH1 Keyblades/W_EX010_A0_TR
+    - Zurph/KH1 Keyblades/W_EX010_B0
+    - Zurph/KH1 Keyblades/W_EX010_B0_NM
+    - Zurph/KH1 Keyblades/W_EX010_B0_TR
+    - Zurph/KH1 Keyblades/W_EX010_C0
+    - Zurph/KH1 Keyblades/W_EX010_C0_NM
+    - Zurph/KH1 Keyblades/W_EX010_C0_TR
+    - Zurph/KH1 Keyblades/W_EX010_D0
+    - Zurph/KH1 Keyblades/W_EX010_D0_NM
+    - Zurph/KH1 Keyblades/W_EX010_D0_TR
+    - Zurph/KH1 Keyblades/W_EX010_E0
+    - Zurph/KH1 Keyblades/W_EX010_E0_NM
+    - Zurph/KH1 Keyblades/W_EX010_E0_TR
+    - Zurph/KH1 Keyblades/W_EX010_F0
+    - Zurph/KH1 Keyblades/W_EX010_F0_NM
+    - Zurph/KH1 Keyblades/W_EX010_F0_TR
+    - Zurph/KH1 Keyblades/W_EX010_G0
+    - Zurph/KH1 Keyblades/W_EX010_G0_NM
+    - Zurph/KH1 Keyblades/W_EX010_G0_TR
+    - Zurph/KH1 Keyblades/W_EX010_H0
+    - Zurph/KH1 Keyblades/W_EX010_H0_NM
+    - Zurph/KH1 Keyblades/W_EX010_H0_TR
+    - Zurph/KH1 Keyblades/W_EX010_M0
+    - Zurph/KH1 Keyblades/W_EX010_M0_NM
+    - Zurph/KH1 Keyblades/W_EX010_M0_TR
   Staff:
     Base:
     - W_EX020
