@@ -129,6 +129,7 @@ Party:
     - FrederykStrife/P_EX100_ULTF
     - FrederykStrife/P_EX100_HTLF
     - FrederykStrife/Purple/Purple Drip
+    - FrederykStrife/Purple/Trinity
   Lion Sora:
     Base:
     - P_LK100
@@ -395,6 +396,10 @@ Weapon:
     - Zurph/KH1 Keyblades/W_EX010_M0
     - Zurph/KH1 Keyblades/W_EX010_M0_NM
     - Zurph/KH1 Keyblades/W_EX010_M0_TR
+    - FrederykStrife/W_EX010_20
+    - FrederykStrife/W_EX010_20_NM
+    - FrederykStrife/W_EX010_20_TR
+    - FrederykStrife/W_EX010_20_WI
   Staff:
     Base:
     - W_EX020
