@@ -25,7 +25,7 @@ def writemodel(old,new):
     new = 'obj/' + new
     #A.FM
     if not OnPC: #Don't edit on PC due to a.us pax being remastered-reliant
-        if os.path.isfile(new+'.a.fm'):
+        if os.path.isfile(new+'.a.fm') and 'ROXAS' not in old: #Stolen Keyblades' PAX are different
             f.write('- name: '+old+'.a.fm\n')
             f.write('  method: copy\n')
             f.write('  source:\n')
@@ -80,7 +80,7 @@ objs = yaml.safe_load(open(currentDir+'modellist.yml'))
 
 #Write the mod.yml
 f = open(currentDir+'mod.yml','w',encoding='utf-8')
-f.write('description: Credits for PandaPyre, Shananas, GeminiHero, Napstio, DA, Oathseeker, and Zurph for providing their respective textures.\n')
+f.write('description: Credits for PandaPyre, Shananas, GeminiHero, Napstio, DA, Oathseeker, Zurph, and FrederykStrife for providing their respective textures.\n')
 f.write('assets:\n')
 for objtype in objs:
     obj = objs[objtype]
