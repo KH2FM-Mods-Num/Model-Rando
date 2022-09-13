@@ -48,11 +48,7 @@ Party:
     - PO08_PLAYER
     - AL14_PLAYER
     ExtraCodomain:
-    - Roxas/P_EX100_NM_HTLF
-    - Roxas/P_EX100_TR_HTLF
-    - Roxas/P_EX100_WI_KH1F
-    - Roxas/P_EX100_WI_HTLF
-    - Roxas/P_EX100_XM_HTLF
+    - Original/P_EX100_MAGF
     - Roxas/Chain/P_EX100
     - Roxas/Chain/P_EX100_BTLF
     - Roxas/Chain/P_EX100_MAGF
@@ -113,6 +109,11 @@ Party:
     - Roxas/Coat/P_EX100_XM_KH1F
     - Roxas/Coat/P_EX100_XM_TRIF
     - Roxas/Coat/P_EX100_XM_ULTF
+    - Roxas/P_EX100_NM_HTLF
+    - Roxas/P_EX100_TR_HTLF
+    - Roxas/P_EX100_WI_KH1F
+    - Roxas/P_EX100_WI_HTLF
+    - Roxas/P_EX100_XM_HTLF
     - Others/Roxas Cosplaying KH1 Sora
     - Dee-Ayy/P_EX100
     - Dee-Ayy/P_EX100_BTLF
