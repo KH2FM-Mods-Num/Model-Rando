@@ -1349,6 +1349,7 @@ Enemy:
     ExtraDomain: []
     ExtraCodomain:
     - MiXaV/M_EX910
+    - Shananas/M_EX910
   Sniper:
     Base:
     - M_EX920
