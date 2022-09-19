@@ -704,6 +704,7 @@ Enemy:
     ExtraCodomain:
     - MiXaV/B_EX110
     - Dee-Ayy/B_EX110
+    - Dee-Ayy/B_EX110_LV99
     - Hooded/B_EX110
   Demyx:
     Base:
@@ -714,6 +715,7 @@ Enemy:
     ExtraCodomain:
     - MiXaV/B_EX120
     - Dee-Ayy/B_EX120
+    - Dee-Ayy/B_EX120_HB_LV99
     - Hooded/B_EX120
   Xaldin:
     Base:
@@ -723,6 +725,7 @@ Enemy:
     ExtraCodomain:
     - MiXaV/B_EX130
     - Dee-Ayy/B_EX130
+    - Dee-Ayy/B_EX130_LV99
     - Hooded/B_EX130
   Xigbar:
     Base:
@@ -732,6 +735,7 @@ Enemy:
     ExtraCodomain:
     - MiXaV/B_EX140
     - Dee-Ayy/B_EX140
+    - Dee-Ayy/B_EX140_LV99
     - Hooded/B_EX140
   Luxord:
     Base:
@@ -742,6 +746,7 @@ Enemy:
     - MiXaV/B_EX150
     - Shananas/B_EX150
     - Dee-Ayy/B_EX150
+    - Dee-Ayy/B_EX150_LV99
     - Hooded/B_EX150
   Saix:
     Base:
@@ -751,6 +756,7 @@ Enemy:
     ExtraCodomain:
     - MiXaV/B_EX160
     - Dee-Ayy/B_EX160
+    - Dee-Ayy/B_EX160_LV99
     - Hooded/B_EX160
   Xemnas:
     Base:
