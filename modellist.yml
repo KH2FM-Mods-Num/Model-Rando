@@ -347,6 +347,9 @@ Weapon:
     - All-in-One/W_EX010_OmegaWeapon
     - All-in-One/W_EX010_OmegaWeapon_NM
     - All-in-One/W_EX010_OmegaWeapon_TR
+    - Dee-Ayy/W_EX010_00    #Unique PAX not implemented
+    - Dee-Ayy/W_EX010_00_NM #Unique PAX not implemented
+    - Dee-Ayy/W_EX010_00_TR #Unique PAX not implemented
     - Roxas/W_EX010_Stick
     - Zurph/W_EX010_30
     - Zurph/W_EX010_30_NM
