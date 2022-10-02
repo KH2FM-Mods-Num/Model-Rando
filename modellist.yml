@@ -333,20 +333,20 @@ Weapon:
     - W_EX010_NM_Z0
     - W_EX010_TR_Z0
     ExtraCodomain:
-    - All-in-One/W_EX010_DetectionSaber
-    - All-in-One/W_EX010_FrontierOfUltima
-    - All-in-One/W_EX010_KingdomKeyD
-    - All-in-One/W_EX010_KingdomKeyD_NM
-    - All-in-One/W_EX010_KingdomKeyD_TR
-    - All-in-One/W_EX010_Pureblood
-    - All-in-One/W_EX010_Pureblood_NM
-    - All-in-One/W_EX010_Pureblood_TR
-    - All-in-One/W_EX010_AlphaWeapon
-    - All-in-One/W_EX010_AlphaWeapon_NM
-    - All-in-One/W_EX010_AlphaWeapon_TR
-    - All-in-One/W_EX010_OmegaWeapon
-    - All-in-One/W_EX010_OmegaWeapon_NM
-    - All-in-One/W_EX010_OmegaWeapon_TR
+    - All-in-One/W_EX010_00
+    - All-in-One/W_EX010_00_NM
+    - All-in-One/W_EX010_00_TR
+    - All-in-One/W_EX010_X0
+    - All-in-One/W_EX010_X0_NM
+    - All-in-One/W_EX010_X0_TR
+    - All-in-One/W_EX010_Y0
+    - All-in-One/W_EX010_Y0_NM
+    - All-in-One/W_EX010_Y0_TR
+    - All-in-One/W_EX010_Z0
+    - All-in-One/W_EX010_Z0_NM
+    - All-in-One/W_EX010_Z0_TR
+    - Others/DetectionSaber
+    - Others/FrontierOfUltima
     - Dee-Ayy/W_EX010_00    #Unique PAX not implemented
     - Dee-Ayy/W_EX010_00_NM #Unique PAX not implemented
     - Dee-Ayy/W_EX010_00_TR #Unique PAX not implemented
