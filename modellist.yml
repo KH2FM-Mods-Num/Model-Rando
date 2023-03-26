@@ -129,13 +129,29 @@ Party:
     - Zurph/KH1 Sora/P_EX100_TRIF
     - Zurph/KH1 Sora/P_EX100_ULTF
     - Zurph/KH1 Sora/P_EX100_HTLF
-    - Zurph/KH1 Sora/P_EX100_NM
-    - Zurph/KH1 Sora/P_EX100_NM_BTLF
-    - Zurph/KH1 Sora/P_EX100_NM_MAGF
-    - Zurph/KH1 Sora/P_EX100_NM_KH1F
-    - Zurph/KH1 Sora/P_EX100_NM_TRIF
-    - Zurph/KH1 Sora/P_EX100_NM_ULTF
-    - Zurph/KH1 Sora/P_EX100_NM_HTLF
+    - Zurph/DDD Sora/P_EX100
+    - Zurph/DDD Sora/P_EX100_BTLF
+    - Zurph/DDD Sora/P_EX100_MAGF
+    - Zurph/DDD Sora/P_EX100_KH1F
+    - Zurph/DDD Sora/P_EX100_TRIF
+    - Zurph/DDD Sora/P_EX100_ULTF
+    - Zurph/DDD Sora/P_EX100_HTLF
+    - Zurph/P_EX100_NM
+    - Zurph/P_EX100_NM_BTLF
+    - Zurph/P_EX100_NM_MAGF
+    - Zurph/P_EX100_NM_KH1F
+    - Zurph/P_EX100_NM_TRIF
+    - Zurph/P_EX100_NM_ULTF
+    - Zurph/P_EX100_NM_HTLF
+    - Zurph/P_EX100_XM
+    - Zurph/P_EX100_XM_HTLF
+    - Zurph/P_EX100_WI
+    - Zurph/P_EX100_WI_BTLF
+    - Zurph/P_EX100_WI_MAGF
+    - Zurph/P_EX100_WI_KH1F
+    - Zurph/P_EX100_WI_TRIF
+    - Zurph/P_EX100_WI_ULTF
+    - Zurph/P_EX100_WI_HTLF
     - FrederykStrife/P_EX100
     - FrederykStrife/P_EX100_BTLF
     - FrederykStrife/P_EX100_MAGF
